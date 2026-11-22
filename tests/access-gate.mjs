@@ -1,4 +1,4 @@
-import assert from'node:assert/strict';import{createHash,randomBytes}from'node:crypto';import{gzipSync}from'node:zlib';import fs from'node:fs/promises';import{createWorker}from'../worker/gate.mjs';import{localDatabase}from'../scripts/sqlite-preview.mjs';
+import assert from'node:assert/strict';import{createHash,randomBytes}from'node:crypto';import{gzipSync}from'node:zlib';import{createWorker}from'../worker/gate.mjs';import{localDatabase}from'../scripts/sqlite-preview.mjs';
 const setup='TESTTESTTESTTEST',hash=s=>createHash('sha256').update(s).digest('hex'),base={ATLAS_ACCESS_HASH:hash(setup),ATLAS_SESSION_KEY:randomBytes(32).toString('hex'),ATLAS_INITIAL_GUEST_CODE:'0482'},env={...base,DB:localDatabase()},assets={'/index.html':{type:'text/html',body:gzipSync('<main>protected home</main>').toString('base64')},'/data.json':{type:'application/json',body:gzipSync('{"schools":31}').toString('base64')}};
 const shell='<html><!--ERROR--><!--CONTENT--></html>',w=createWorker(assets,shell);let ip=0;
 const get=(p,c)=>new Request('https://atlas.test'+p,{headers:c?{cookie:c}:{}}),post=(p,body,{cookie,origin='https://atlas.test',address=String(++ip),json=false}={})=>new Request('https://atlas.test'+p,{method:'POST',headers:{origin,'content-type':json?'application/json':'application/x-www-form-urlencoded','CF-Connecting-IP':address,...(cookie?{cookie}:{})},body:json?JSON.stringify(body):new URLSearchParams(body)}),cookie=r=>r.headers.get('set-cookie')?.split(';')[0];
@@ -41,5 +41,4 @@ rateEnv.DB.sqlite.exec('DELETE FROM atlas_attempts');for(let i=0;i<50;i++)assert
 rateEnv.DB.sqlite.exec('UPDATE atlas_attempts SET reset_at=0');assert.equal((await createWorker(assets,shell).fetch(post('/access/guest',{code:'9999'}),rateEnv)).status,401);
 assert.equal((await w.fetch(get('/data.json'),{...env,DB:{prepare(){throw Error('offline')}}})).status,401);
 r=await w.fetch(post('/access/logout',{}),env);assert.equal(r.status,303);assert.ok(r.headers.get('set-cookie').includes('Max-Age=0'));
-await fs.writeFile('.dev.vars',JSON.stringify(base));
 console.log('Passed protected first-admin setup, password login/recovery/rotation, four-digit guest codes, server-side authorization, guest revocation, session integrity and persistent per-IP/global rate limits.');
