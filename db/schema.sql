@@ -70,3 +70,9 @@ CREATE UNIQUE INDEX `atlas_sync_one_running` ON `atlas_sync_runs` (`source`) WHE
 CREATE TABLE `atlas_sync_current` (`source` text PRIMARY KEY NOT NULL, `run_id` text NOT NULL, `payload` text NOT NULL, `updated_at` integer NOT NULL);
 CREATE TABLE `atlas_location_imports` (`id` text PRIMARY KEY NOT NULL, `filename` text NOT NULL, `payload` text NOT NULL, `status` text DEFAULT 'pending' NOT NULL, `created_at` integer NOT NULL, `reviewed_at` integer, `review_note` text DEFAULT '' NOT NULL);
 CREATE TABLE `atlas_asset_locations` (`asset_key` text PRIMARY KEY NOT NULL, `asset_id` text NOT NULL, `x` real NOT NULL, `y` real NOT NULL, `basis` text NOT NULL, `observed_on` text NOT NULL, `import_id` text NOT NULL, `updated_at` integer NOT NULL);
+
+CREATE TABLE atlas_external_sources (
+  kind TEXT PRIMARY KEY NOT NULL CHECK (kind IN ('api', 'sql')),
+  config TEXT NOT NULL,
+  revision INTEGER NOT NULL
+);

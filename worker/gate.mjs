@@ -1,3 +1,4 @@
+import {externalSourcesApi} from './external-sources.mjs';
 import {databaseReady} from './database.mjs';
 import {createSyncService,syncApi,syncMcp} from './sync.mjs';
 import {projectApi} from './projects.mjs';
@@ -119,6 +120,7 @@ export function createWorker(assets,loginHtml,catalog=[],gridBase={records:[]},p
    return response(null,303,{Location:'/', 'Set-Cookie':await issueSession(existing,'admin',env)});
   }
   const auth=await session(request,env);
+  if(path==='/api/external-sources'||path.startsWith('/api/external-sources/'))return await externalSourcesApi(request,env,auth,{json,limitedBody,fetcher:options.fetcher});
   if(path.startsWith('/api/sync/'))return await syncApi(request,env,auth,syncService,json);
   if(auth&&path==='/energy/grid-checks.json'&&request.method==='GET')return json(await syncService.grid(env));
   if(path.startsWith('/api/projects')||path.startsWith('/api/feedback'))return await projectApi(request,env,auth,catalog,{json,limitedBody,random,reserve});
