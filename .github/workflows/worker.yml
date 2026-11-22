@@ -1,0 +1,72 @@
+name: Worker verification and release
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      release:
+        description: Deploy the verified Worker to the configured production target
+        type: boolean
+        default: false
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: '24'
+      - run: npm ci
+      - run: npm run build
+      - run: npm test
+      - name: Install pinned Cloudflare tooling in the temporary directory
+        run: npm install --prefix "$RUNNER_TEMP/atlas-cli" --no-audit --no-fund wrangler@4.166.0
+      - name: Exercise the release bundle with local workerd and D1
+        run: node scripts/test-workerd.mjs "$RUNNER_TEMP/atlas-cli"
+      - name: Check Worker packaging without credentials
+        run: '"$RUNNER_TEMP/atlas-cli/node_modules/.bin/wrangler" deploy dist/cloudflare/worker.mjs --name atlas-local-check --compatibility-date 2026-05-01 --no-bundle --dry-run'
+
+  release:
+    needs: verify
+    if: github.event_name == 'workflow_dispatch' && inputs.release && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment: production
+    concurrency:
+      group: atlas-production
+      cancel-in-progress: false
+    env:
+      WORKER_NAME: ${{ vars.WORKER_NAME }}
+      D1_DATABASE_NAME: ${{ vars.D1_DATABASE_NAME }}
+      D1_DATABASE_ID: ${{ vars.D1_DATABASE_ID }}
+      ATLAS_ORIGIN: ${{ vars.ATLAS_ORIGIN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '24'
+      - run: npm ci && npm run build && npm test
+      - run: npm install --prefix "$RUNNER_TEMP/atlas-cli" --no-audit --no-fund wrangler@4.166.0
+      - run: npm run d1:config
+      - name: Verify the target and deploy only Worker code
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: |
+          npm run d1:check
+          "$RUNNER_TEMP/atlas-cli/node_modules/.bin/wrangler" deploy --config wrangler.production.json
+      - name: Check readiness and unauthenticated asset protection
+        run: |
+          curl --retry 3 --retry-all-errors --max-time 15 --fail --silent --show-error "$ATLAS_ORIGIN/health/ready" | jq -e '.ready == true'
+          test "$(curl --max-time 15 --silent --show-error -o /dev/null -w '%{http_code}' "$ATLAS_ORIGIN/data.json")" = 401
