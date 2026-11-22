@@ -18,7 +18,7 @@ npm run build
 ## סודות ונתונים
 
 קובץ `.env.example` מכיל שמות משתנים בלבד. סודות הגישה, מסד הנתונים החי, חשבונות המשתמשים, פרויקטים והערות שנשמרו בשרת אינם מועתקים למאגר.
-המאגר כולל את קובצי הנתונים, מקורות המידע והייחוס שכבר מצורפים לקוד. העלאה זו אינה מרעננת את נתוני המקור או מחברת פריסה אוטומטית מ־GitHub.
+המאגר כולל את קובצי הנתונים, מקורות המידע והייחוס שכבר מצורפים לקוד. הוראות הפרדה בין סביבות, בדיקת D1 ופריסה מבוקרת מ־GitHub מופיעות ב־[מדריך ההפעלה](docs/d1-release.md).
 
 בדיקות העיצוב מתועדות ב־`docs/redesign-2026-11-20/QA.md`. הבדיקות משתמשות בנתוני בדיקה; אין להשתמש בהם כפרטי כניסה לאתר.
 
@@ -54,7 +54,7 @@ Sessions use revocable signed v3 session cookies with an eight-hour absolute lim
 
 Persistent throttling: guest attempts limited to five per client over fifteen minutes and fifty across the site over twenty-four hours; administrator attempts limited to eight per client per fifteen minutes and one hundred per hour across the site. Client keys are HMAC-pseudonymized. Counters are bounded and expire; no attempt password/code values are stored. A four-digit shared code is intentionally a limited guest-access credential, not an administrator credential.
 
-Preview runs through the managed daemon using `scripts/preview-worker.mjs`. It uses the ignored `.dev.vars` fixture and a separate `.preview/auth.db`. `scripts/sqlite-preview.mjs` adapts SQLite to the D1 calls for local validation and never enters the deployed bundle.
+Development preview runs on loopback using `scripts/preview-worker.mjs`. It uses the ignored `.dev.vars` fixture and a separate `.preview/auth.db`. `scripts/sqlite-preview.mjs` adapts SQLite to the D1 calls for local validation and never enters the deployed bundle.
 
 Checks: `node tests/asset-delivery.mjs`, `node tests/access-gate.mjs`, `node tests/bill-model.cjs`, `node tests/energy-model.cjs`, `node tests/roof-links.cjs`, `node tests/tariffs-and-projects.cjs`.
 
@@ -69,7 +69,7 @@ Savings display: the visible scenario summary separates avoided electricity purc
 
 Basemap requests use the canonical OpenStreetMap tile URL and the browser’s real origin via strict-origin-when-cross-origin. No proxy or bulk tile cache is used. A failed background request switches to a data-only map with a clear status while preserving asset, plan and boundary layers. Users may also select data-only mode.
 
-Additional checks: `node tests/session-lock.mjs`, `node tests/session-client.cjs`, `node tests/map-background.cjs`, `node tests/data-integrity.cjs`. `scripts/preview-app.mjs` is a local UI fixture with synthetic authorization; it is never bundled or a substitute for production authentication.
+Additional checks: `node tests/session-lock.mjs`, `node tests/session-client.cjs`, `node tests/map-background.cjs`, `node tests/data-integrity.cjs`. `scripts/preview-app.mjs` is an authenticated local UI fixture with synthetic data; it is never bundled or a substitute for production authentication.
 
 
 ## Shared project delivery (v18)
@@ -82,7 +82,7 @@ The home-page note form accepts optional self-reported name and asset associatio
 
 `web/project-risks.js` links official sources for rights, structural review, grid acceptance, current supply/emergency modes, fire and environmental review, planning, economics, procurement, operations and grants. Recommendations must be adapted by qualified professionals. The July 2026 Ministry of Energy announcement lists Neve Midbar among solar sports-canopy grant winners; the checklist asks the treasury to locate the award file and does not assign an award, amount or progress to any specific facility.
 
-Checks: `node tests/projects-feedback.mjs` exercises durable records, canonical deduplication, administrator-only mutation, private feedback, stale writes, evidence requirements, completion gates, idempotency and model metrics. The local-only `scripts/preview-app.mjs` fixture uses `.preview/project-qa18.db` and synthetic roles for UI QA; test records and the role switch are never packaged into the Worker.
+Checks: `node tests/projects-feedback.mjs` exercises durable records, canonical deduplication, administrator-only mutation, private feedback, stale writes, evidence requirements, completion gates, idempotency and model metrics. The historical v18 fixture used `.preview/project-qa18.db` and synthetic roles for UI QA; test records and the role switch are never packaged into the Worker.
 
 ## Government-source sync (v19)
 

@@ -1,3 +1,4 @@
+import {databaseReady} from './database.mjs';
 import {createSyncService,syncApi,syncMcp} from './sync.mjs';
 import {projectApi} from './projects.mjs';
 // Role-based access: administrator account; read-only professional guests using four-digit codes.
@@ -46,15 +47,45 @@ function form(mode,exists){
  if(mode==='guest')return '<span class="mode-label">כניסת אורח</span><h2>ברוכים הבאים</h2><p>הזינו קוד בן 4 ספרות שנמסר לכם ממנהל המערכת. הכניסה מאפשרת צפייה בנתונים ושליחת הערות מקצועיות למנהל.</p><form action="/access/guest" method="post">'+field('code','קוד אורח — 4 ספרות','password','inputmode="numeric" pattern="[0-9]{4}" minlength="4" maxlength="4" autocomplete="off" placeholder="••••" class="pin"')+'<button type="submit">כניסת אורח ←</button></form><a class="secondary" href="/?mode=login">התחברות לחשבון האישי</a>';
  return '<span class="mode-label">כניסת מנהל</span><h2>ברוכים הבאים</h2><p>התחברו לחשבון האישי לניהול הנתונים וההרשאות.</p><form action="/access/login" method="post">'+field('email','מייל','email','autocomplete="username" maxlength="254"')+field('password','סיסמה','password','autocomplete="current-password" maxlength="128"')+'<button type="submit">כניסה לחשבון ←</button></form><a class="secondary" href="/">חזרה לכניסת אורח</a>'+(exists?'<a class="small-link" href="/?mode=recover">שכחתי סיסמה — שחזור באמצעות קוד</a>':'<a class="small-link" href="/?mode=setup">כניסה ראשונה? הגדרת מנהל המערכת</a>');
 }
-export function createWorker(assets,loginHtml,catalog=[],gridBase={records:[]},presentationCsp="'none'"){
- const syncService=createSyncService(catalog,gridBase);
+export async function sitesOwner(request, env) {
+ const id = request.headers.get('oai-authenticated-user-id');
+ const email = request.headers.get('oai-authenticated-user-email')?.trim().toLowerCase();
+ return Boolean(id && email && email === (await owner(env))?.email);
+}
+export function createWorker(assets,loginHtml,catalog=[],gridBase={records:[]},presentationCsp="'none'", options={}){
+ const syncService=createSyncService(catalog,gridBase,{fetcher:options.fetcher});
  const page=(content,error='',status=200,headers={})=>response(loginHtml.replace('<!--CONTENT-->',content).replace('<!--ERROR-->',error?'<p class="error" role="alert">'+escape(error)+'</p>':''),status,{'Content-Type':'text/html; charset=utf-8','Content-Security-Policy':"default-src 'none'; script-src "+presentationCsp+"; style-src 'unsafe-inline'; font-src data:; img-src data:; form-action 'self'; base-uri 'none'; frame-ancestors 'self' https://chatgpt.com",...headers});
  const login=(mode,exists,error='',status=200,headers={})=>page(form(mode,exists),error,status,headers);
  const recoveryPage=(code,headers)=>page('<span class="mode-label">החשבון מוכן</span><h2>שמור את קוד השחזור</h2><p>הקוד מוצג עכשיו בלבד. שמור אותו במקום בטוח ונפרד מהסיסמה. הוא מאפשר לאפס סיסמה ללא שליחת מייל.</p><code class="recovery-code" dir="ltr">'+escape(code.match(/.{1,6}/g).join('-'))+'</code><a class="primary-link" href="/">שמרתי — כניסה למערכת ←</a>','',200,headers);
  return {async fetch(request,env){try{
   const url=new URL(request.url),path=url.pathname;
+  if(options.standalone && (env.ATLAS_ENVIRONMENT!=='production' || url.origin!==env.ATLAS_ORIGIN ||
+    typeof env.ATLAS_SESSION_KEY!=='string' || env.ATLAS_SESSION_KEY.length<32 || !/^[a-f0-9]{64}$/.test(env.ATLAS_ACCESS_HASH||''))){
+   return json({error:'service_unavailable'},503);
+  }
+  if(path==='/health/ready'){
+   if(!['GET','HEAD'].includes(request.method))return response(null,405,{Allow:'GET, HEAD'});
+   let ready=false;
+   try {
+    ready=Boolean(env.ATLAS_SESSION_KEY && env.ATLAS_ACCESS_HASH && await databaseReady(env.DB, options.schema) &&
+     (/^\d{4}$/.test(env.ATLAS_INITIAL_GUEST_CODE||'') || await owner(env)));
+   } catch { /* Connection failures expose only service availability. */ }
+   return response(request.method==='HEAD'?null:JSON.stringify({ready}),ready?200:503,{'Content-Type':'application/json'});
+  }
   if(!env.DB||!env.ATLAS_SESSION_KEY||!env.ATLAS_ACCESS_HASH)return page('<h2>הכניסה אינה זמינה כעת</h2><p>יש לפנות למנהל המערכת.</p>','',503);
-  if(path==='/mcp')return await syncMcp(request,env,syncService,json);
+  if(path==='/mcp'){
+   // Only the Sites-specific bundle runs behind its verified identity gateway.
+   // A standalone Worker authenticates tool calls with the existing owner session.
+   const authorize=async()=>{
+    if(options.sitesIdentity && url.hostname.endsWith('.chatgpt.site'))return sitesOwner(request,env);
+    const gatewayKey=env.ATLAS_MCP_GATEWAY_KEY;
+    if(options.standalone && typeof gatewayKey==='string' && gatewayKey.length>=32 &&
+      equal(request.headers.get('authorization'),'Bearer '+gatewayKey))return sitesOwner(request,env);
+    if(request.headers.get('origin')!==(env.ATLAS_ORIGIN||url.origin))return false;
+    return (await session(request,env))?.role==='admin';
+   };
+   return await syncMcp(request,env,syncService,json,authorize);
+  }
   const unsafe=!['GET','HEAD'].includes(request.method);if(unsafe&&request.headers.get('origin')!==(env.ATLAS_ORIGIN||url.origin))return json({error:'הבקשה אינה מאותו אתר.'},403);
   if(path==='/access/logout'){if(request.method!=='POST')return response(null,303,{Location:'/'});await revoke(await session(request,env),env);return response(null,303,{Location:'/', 'Set-Cookie':clearCookie()})}
   if(['/access/login','/access/guest','/access/setup','/access/recover'].includes(path)){
@@ -68,8 +99,9 @@ export function createWorker(assets,loginHtml,catalog=[],gridBase={records:[]},p
     if(existing)return login('login',true,'חשבון המנהל כבר הוגדר. יש להתחבר אליו.',409);
     const setup=(body.get('setup')||'').replace(/[\s-]/g,'').toUpperCase();if(!/^[A-Z2-9]{16}$/.test(setup)||!equal(await digest(setup),env.ATLAS_ACCESS_HASH))return login('setup',false,'קוד ההקמה אינו תקין.',401);
     if(!validEmail(email)||!validPassword(password)||password!==body.get('confirm'))return login('setup',false,'יש להזין מייל תקין ושתי סיסמאות זהות באורך 12–128 תווים.',400);
+    if(!/^\d{4}$/.test(env.ATLAS_INITIAL_GUEST_CODE||''))return json({error:'שירות ההקמה אינו זמין כרגע.'},503);
     const salt=random(16),recovery=random(18),hash=await passwordHash(password,salt,env),now=Math.floor(Date.now()/1000);
-    try{await env.DB.batch([env.DB.prepare('INSERT INTO atlas_admin (id,email,password_hash,salt,recovery_hash,created_at) VALUES (?,?,?,?,?,?)').bind('owner',email,hash,salt,await recoveryHash(recovery,env),now),env.DB.prepare('INSERT INTO atlas_guests (id,name,profession,code_hash,created_at) VALUES (?,?,?,?,?)').bind('general','אורח מקצועי','גישה כללית לצפייה',await codeHash(env.ATLAS_INITIAL_GUEST_CODE,env),now)])}catch{return login('login',true,'לא ניתן להשלים את ההקמה. ייתכן שהחשבון כבר הוגדר.',409)}
+    try{await env.DB.batch([env.DB.prepare('INSERT INTO atlas_admin (id,email,password_hash,salt,recovery_hash,created_at) VALUES (?,?,?,?,?,?)').bind('owner',email,hash,salt,await recoveryHash(recovery,env),now),env.DB.prepare('INSERT INTO atlas_guests (id,name,profession,code_hash,created_at) VALUES (?,?,?,?,?)').bind('general','אורח מקצועי','גישה כללית לצפייה',await codeHash(env.ATLAS_INITIAL_GUEST_CODE,env),now)])}catch(error){if(!await owner(env))throw error;return login('login',true,'לא ניתן להשלים את ההקמה. ייתכן שהחשבון כבר הוגדר.',409)}
     return recoveryPage(recovery,{'Set-Cookie':await issueSession(await owner(env),'admin',env)});
    }
    if(mode==='guest'){
@@ -105,13 +137,13 @@ export function createWorker(assets,loginHtml,catalog=[],gridBase={records:[]},p
    let input;try{input=JSON.parse(await limitedBody(request))}catch{return json({error:'בקשה לא תקינה.'},400)}
    if(path==='/api/account/guests'){
     const name=String(input.name||'').trim(),profession=String(input.profession||'').trim(),expires=Number(input.expires_at||0),code=String(input.code||'');if(!name||name.length>80||profession.length>80||!/^\d{4}$/.test(code)||!Number.isInteger(expires)||expires<0||expires&&expires<=Math.floor(Date.now()/1000))return json({error:'יש להזין שם, קוד בן 4 ספרות ותוקף עתידי או ללא תוקף.'},400);
-    try{await env.DB.prepare('INSERT INTO atlas_guests (id,name,profession,code_hash,expires_at,created_at) VALUES (?,?,?,?,?,?)').bind(random(12),name,profession,await codeHash(code,env),expires,Math.floor(Date.now()/1000)).run()}catch{return json({error:'הקוד כבר בשימוש. יש לבחור קוד אחר.'},409)}return json({ok:true});
+    try{await env.DB.prepare('INSERT INTO atlas_guests (id,name,profession,code_hash,expires_at,created_at) VALUES (?,?,?,?,?,?)').bind(random(12),name,profession,await codeHash(code,env),expires,Math.floor(Date.now()/1000)).run()}catch(error){if(!/UNIQUE constraint failed: atlas_guests\.code_hash/i.test(String(error.cause?.message||error.message)))throw error;return json({error:'הקוד כבר בשימוש. יש לבחור קוד אחר.'},409)}return json({ok:true});
    }
    if(path==='/api/account/guest-access'){
     if(typeof input.id!=='string'||typeof input.active!=='boolean')return json({error:'בקשה לא תקינה.'},400);await env.DB.prepare('UPDATE atlas_guests SET active=?,version=version+1 WHERE id=?').bind(input.active?1:0,input.id).run();return json({ok:true});
    }
    if(path==='/api/account/guest-code'){
-    if(typeof input.id!=='string'||!/^\d{4}$/.test(String(input.code||'')))return json({error:'יש להזין קוד בן 4 ספרות.'},400);try{await env.DB.prepare('UPDATE atlas_guests SET code_hash=?,version=version+1 WHERE id=?').bind(await codeHash(input.code,env),input.id).run()}catch{return json({error:'הקוד כבר בשימוש.'},409)}return json({ok:true});
+    if(typeof input.id!=='string'||!/^\d{4}$/.test(String(input.code||'')))return json({error:'יש להזין קוד בן 4 ספרות.'},400);try{await env.DB.prepare('UPDATE atlas_guests SET code_hash=?,version=version+1 WHERE id=?').bind(await codeHash(input.code,env),input.id).run()}catch(error){if(!/UNIQUE constraint failed: atlas_guests\.code_hash/i.test(String(error.cause?.message||error.message)))throw error;return json({error:'הקוד כבר בשימוש.'},409)}return json({ok:true});
    }
    if(path==='/api/account/password'){
     const retry=await throttle(request,env,'password');if(retry)return json({error:'יש להמתין לפני ניסיון נוסף.'},429);

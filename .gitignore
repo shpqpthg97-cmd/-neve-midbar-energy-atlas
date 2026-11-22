@@ -16,3 +16,9 @@ dist/
 *.sqlite
 *.sqlite3
 *.db
+
+.dev.vars.*
+.wrangler/
+wrangler.production.json
+*.db-*
+*.sqlite-*

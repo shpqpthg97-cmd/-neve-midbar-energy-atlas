@@ -1,19 +1,12 @@
-import {createSyncService,syncApi} from '../worker/sync.mjs';
-// Local-only UI fixture. Synthetic identities; uses real project routes and isolated D1 adapter.
-import http from 'node:http';import fs from 'node:fs/promises';import path from 'node:path';import {randomBytes} from 'node:crypto';import {localDatabase} from './sqlite-preview.mjs';import {projectApi} from '../worker/projects.mjs';import {projectCatalog} from './project-catalog.mjs';
-await fs.mkdir('.preview',{recursive:true});const env={DB:localDatabase('.preview/sync-qa19.db')},catalog=projectCatalog();
-const json=(v,status=200)=>new Response(JSON.stringify(v),{status,headers:{'Content-Type':'application/json'}}),reserve=(env,key,limit,seconds,now)=>env.DB.prepare('INSERT INTO atlas_attempts (key,attempts,reset_at) VALUES (?,1,?) ON CONFLICT(key) DO UPDATE SET attempts=attempts+1 RETURNING attempts,reset_at').bind(key,now+seconds).first();
-const syncService=createSyncService(catalog,JSON.parse(await fs.readFile('web/energy/grid-checks.json','utf8')));
-const {default:designPreviewWorker}=await import('data:text/javascript;base64,'+Buffer.from(await fs.readFile('dist/server/index.js','utf8')).toString('base64'));
-const root=path.resolve('web'),types={'.html':'text/html','.js':'text/javascript','.css':'text/css','.json':'application/json','.geojson':'application/geo+json','.png':'image/png','.jpg':'image/jpeg','.svg':'image/svg+xml'};
-http.createServer(async(req,res)=>{const url=new URL(req.url,'http://preview.local'),role=url.searchParams.get('qa_role')||((req.headers.cookie||'').includes('QA_ROLE=guest')?'guest':'admin'),auth={role,record:{id:role==='admin'?'owner':'qa-guest',name:'יועץ בדיקה',email:'qa@example.test'}};try{
- if(url.searchParams.has('qa_role'))res.setHeader('Set-Cookie','QA_ROLE='+role+'; Path=/; SameSite=Strict');
- if(url.pathname==='/__design/login'){const r=await designPreviewWorker.fetch(new Request('http://preview.local/?mode='+(url.searchParams.get('mode')||'guest')),{...env,ATLAS_SESSION_KEY:'isolated-design-preview',ATLAS_ACCESS_HASH:'isolated-design-preview'});res.writeHead(r.status,Object.fromEntries(r.headers));return res.end(await r.text())}
- if(url.pathname==='/api/auth/me'||url.pathname==='/api/auth/activity'){res.writeHead(200,{'Content-Type':'application/json'});return res.end(JSON.stringify({role,email:role==='admin'?'qa@example.test':undefined,name:auth.record.name,idleSeconds:600,expiresAt:Math.floor(Date.now()/1000)+600}))}
- if(url.pathname.startsWith('/api/sync/')){const request=new Request('http://preview.local'+req.url,{method:req.method,headers:req.headers,...(!['GET','HEAD'].includes(req.method)?{body:req,duplex:'half'}:{})});const r=await syncApi(request,env,auth,syncService,json);res.writeHead(r.status,Object.fromEntries(r.headers));return res.end(await r.text())}
- if(url.pathname==='/energy/grid-checks.json'){res.writeHead(200,{'Content-Type':'application/json'});return res.end(JSON.stringify(await syncService.grid(env)))}
- if(url.pathname.startsWith('/api/projects')||url.pathname.startsWith('/api/feedback')){const request=new Request('http://preview.local'+req.url,{method:req.method,headers:req.headers,...(!['GET','HEAD'].includes(req.method)?{body:req,duplex:'half'}:{})});const r=await projectApi(request,env,auth,catalog,{json,limitedBody:r=>r.text(),random:n=>randomBytes(n).toString('hex'),reserve});res.writeHead(r.status,Object.fromEntries(r.headers));return res.end(await r.text())}
- if(url.pathname==='/api/account'){res.writeHead(role==='admin'?200:403,{'Content-Type':'application/json'});return res.end(JSON.stringify(role==='admin'?{role,email:'qa@example.test',guests:[]}:{error:'admin only'}))}
- if(url.pathname==='/access/logout'){res.writeHead(303,{Location:'/'});return res.end()}
- const file=path.resolve(root,'.'+(url.pathname==='/'?'/index.html':url.pathname));if(!file.startsWith(root+path.sep))throw Error();const bytes=await fs.readFile(file);res.writeHead(200,{'Content-Type':types[path.extname(file)]||'application/octet-stream','Referrer-Policy':'strict-origin-when-cross-origin'});res.end(bytes);
- }catch(e){console.error(e.message);res.writeHead(500);res.end('Preview error')}}).listen(Number(process.env.PORT||4173),'0.0.0.0');
+import { localCredentials } from './local-secrets.mjs';
+import { demoWorker } from './demo-fixture.mjs';
+import { localDatabase } from './sqlite-preview.mjs';
+import { serveLocal } from './local-server.mjs';
+
+if (process.env.NODE_ENV === 'production') throw new Error('Demo is local only.');
+const { setup, guest, secrets } = localCredentials();
+const env = { ...secrets, DB: localDatabase() };
+serveLocal(await demoWorker(), env, Number(process.env.PORT || 4174), url => {
+  // These ephemeral codes are shown only in the interactive local demo terminal.
+  console.log('Local demo setup', url + '/?mode=setup', '\nOne-time setup code', setup, '\nLocal guest PIN', guest);
+});
