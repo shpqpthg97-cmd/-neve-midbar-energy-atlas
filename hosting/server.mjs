@@ -15,7 +15,18 @@ for (const name of ['ATLAS_ORIGIN', 'DATABASE_URL', 'ATLAS_SESSION_KEY', 'ATLAS_
   if (!env[name]) console.error('Missing setting: ' + name + '. The site will answer 503 until it is set.');
 }
 env.ATLAS_ORIGIN = origin;
-env.DB = env.DATABASE_URL ? postgresDatabase(env.DATABASE_URL, { expectedSchema }) : undefined;
+// DATABASE_URL may list several candidate connection strings separated by spaces
+// (for example two Supabase pooler hosts); the first one that answers is used.
+async function connect(list) {
+  const candidates = String(list || '').split(/\s+/).filter(Boolean);
+  for (const [index, url] of candidates.entries()) {
+    const db = postgresDatabase(url, { expectedSchema });
+    try { await db.prepare('SELECT 1 AS ok').first(); console.log('Database connected (candidate ' + (index + 1) + ').'); return db; }
+    catch (error) { console.error('Database candidate ' + (index + 1) + ' failed: ' + error.message); await db.close().catch(() => {}); }
+  }
+  return candidates.length ? postgresDatabase(candidates[0], { expectedSchema }) : undefined;
+}
+env.DB = await connect(env.DATABASE_URL);
 delete env.DATABASE_URL;
 
 const { default: worker } = await import('../dist/cloudflare/worker.mjs');
