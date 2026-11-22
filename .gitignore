@@ -22,3 +22,6 @@ dist/
 wrangler.production.json
 *.db-*
 *.sqlite-*
+
+# Preserved v28 data snapshot (atlas content + knowledge database)
+!archive/**/*.sqlite

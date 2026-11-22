@@ -1,0 +1,41 @@
+{
+  "system": "מנהלת ידע ואנרגיה – נווה מדבר",
+  "site_version": 28,
+  "site_commit": "14a18d2ddf0759927691ad0ecfd3288c7ab5950b",
+  "github_commit": "44430dd9481789d6d08de6b8674031e5d190de41",
+  "assembled_at": "2026-11-22T17:51:02+02:00",
+  "worker_assets_verified": 121,
+  "database_rows": {
+    "atlas_projects": 0,
+    "atlas_feedback": 0,
+    "atlas_asset_locations": 0,
+    "atlas_location_imports": 0,
+    "atlas_sync_current": 0,
+    "atlas_sync_runs": 0,
+    "atlas_sync_settings": 0,
+    "atlas_external_sources": 0
+  },
+  "source_files": 112,
+  "vendor": [
+    [
+      "node",
+      "v24.22.3",
+      "https://nodejs.org/dist/v24.22.3/node-v24.22.3-win-x64.zip",
+      "e612af99f626ab415ea225af6bce5c971feb448cb5cae250bb1c3fa50c5f7d9f"
+    ],
+    [
+      "leaflet",
+      "1.9.4",
+      "https://registry.npmjs.org/leaflet/-/leaflet-1.9.4.tgz",
+      "sha512-nxS1ynzJOmOlHp+iL3FyWqK89GtNL8U8rvlMOsQdTTssxZwCXh8N2NB3GDQOL+YR3XnWyZAxwQixURb+FA74PA=="
+    ],
+    [
+      "proj4",
+      "2.11.0",
+      "https://registry.npmjs.org/proj4/-/proj4-2.11.0.tgz",
+      "sha512-SasuTkAx8HnWQHfIyhkdUNJorSJqINHAN3EyMWYiQRVorftz9DHz650YraFgczwgtHOxqnfuDxSNv3C8MUnHeg=="
+    ]
+  ],
+  "cached_linked_pdfs": 10,
+  "knowledge_sqlite_datasets": 93
+}
