@@ -1,0 +1,74 @@
+{
+  "query_url": "https://services3.arcgis.com/IwBfWsA3Hiwd5dEw/arcgis/rest/services/LV_DAY/FeatureServer/3/query?f=json&geometry=192670%2C568104&geometryType=esriGeometryPoint&inSR=2039&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CPOTENTIALITY_TO_CONNECT_D_LV%2CPOTENTIALITY_TO_CONNECT_N_LV%2CPOTENTIALITY_TO_CONNECT_D_MV%2CPOTENTIALITY_TO_CONNECT_N_MV&returnGeometry=false",
+  "queried_at": "2026-11-14",
+  "result": {
+    "objectIdFieldName": "OBJECTID",
+    "uniqueIdField": {
+      "name": "OBJECTID",
+      "isSystemMaintained": true
+    },
+    "globalIdFieldName": "",
+    "geometryType": "esriGeometryPolygon",
+    "spatialReference": {
+      "wkid": 2039,
+      "latestWkid": 2039
+    },
+    "fields": [
+      {
+        "name": "OBJECTID",
+        "type": "esriFieldTypeOID",
+        "alias": "OBJECTID",
+        "sqlType": "sqlTypeOther",
+        "domain": null,
+        "defaultValue": null
+      },
+      {
+        "name": "POTENTIALITY_TO_CONNECT_D_LV",
+        "type": "esriFieldTypeString",
+        "alias": "POTENTIALITY_TO_CONNECT_D_LV",
+        "sqlType": "sqlTypeOther",
+        "length": 50,
+        "domain": null,
+        "defaultValue": null
+      },
+      {
+        "name": "POTENTIALITY_TO_CONNECT_N_LV",
+        "type": "esriFieldTypeString",
+        "alias": "POTENTIALITY_TO_CONNECT_N_LV",
+        "sqlType": "sqlTypeOther",
+        "length": 50,
+        "domain": null,
+        "defaultValue": null
+      },
+      {
+        "name": "POTENTIALITY_TO_CONNECT_D_MV",
+        "type": "esriFieldTypeString",
+        "alias": "POTENTIALITY_TO_CONNECT_D_MV",
+        "sqlType": "sqlTypeOther",
+        "length": 50,
+        "domain": null,
+        "defaultValue": null
+      },
+      {
+        "name": "POTENTIALITY_TO_CONNECT_N_MV",
+        "type": "esriFieldTypeString",
+        "alias": "POTENTIALITY_TO_CONNECT_N_MV",
+        "sqlType": "sqlTypeOther",
+        "length": 50,
+        "domain": null,
+        "defaultValue": null
+      }
+    ],
+    "features": [
+      {
+        "attributes": {
+          "OBJECTID": 1536,
+          "POTENTIALITY_TO_CONNECT_D_LV": "גבוהה",
+          "POTENTIALITY_TO_CONNECT_N_LV": "גבוהה",
+          "POTENTIALITY_TO_CONNECT_D_MV": "נמוכה",
+          "POTENTIALITY_TO_CONNECT_N_MV": "נמוכה מאוד"
+        }
+      }
+    ]
+  }
+}

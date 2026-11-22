@@ -1,0 +1,21 @@
+﻿סמל רשות,מספר סידורי,שם רשות מקומית,שטח שיפוט (דונם),שטח תפוס על ידי לוחות סולאריים (דונם),מספר מבנים,שטח גגות כולל (דונם),שטח פוטנציאל שנמצא מתאים לסולארי (דונם),שטח לא פנוי (דונם),הספק מותקן מוערך קיים (MW),אחוז מימוש,הספק פוטנציאל מוערך (MW),סיווג שימוש,הערות
+5568,73,נווה מדבר,32721,0.1,11,3.8,2.2,0.1,0,3.3,0.3,ציבורי,usg code is main usage
+5568,73,נווה מדבר,32721,0,0,0,0,0,0,0,0,ממשלתי,"usg code is secondary usage, which is included in main usage"
+5568,73,נווה מדבר,32721,0,0,0,0,0,0,0,0,תחבורה,"usg code is secondary usage, which is included in main usage"
+5568,73,נווה מדבר,32721,0,0,0,0,0,0,0,0,אקדמיה,"usg code is secondary usage, which is included in main usage"
+5568,73,נווה מדבר,32721,0.1,4,2.1,1.3,0.1,0,4.9,0.2,שירותי דת,"usg code is secondary usage, which is included in main usage"
+5568,73,נווה מדבר,32721,0,0,0,0,0,0,0,0,חירום וביטחון,"usg code is secondary usage, which is included in main usage"
+5568,73,נווה מדבר,32721,0,7,1.7,0.9,0,0,1,0.1,רפואה,"usg code is secondary usage, which is included in main usage"
+5568,73,נווה מדבר,32721,4.6,220,68.1,33.3,4.2,0.7,12.1,4.8,רשות מקומית,usg code is main usage
+5568,73,נווה מדבר,32721,4.5,164,54.3,25.7,4.1,0.6,14.9,3.7,מבנה חינוך,"usg code is secondary usage, which is included in main usage"
+5568,73,נווה מדבר,32721,0.1,56,13.8,7.6,0.1,0,1.1,1.1,מבנה ציבור פרט לחינוך,"usg code is secondary usage, which is included in main usage"
+5568,73,נווה מדבר,32721,13.2,1627,310.7,138,9.8,1.9,8.7,19.7,מגורים,usg code is main usage
+5568,73,נווה מדבר,32721,13.2,1627,310.7,138,9.8,1.9,8.7,19.7,מגורים בנייה צמודת קרקע (עד 9 מטרים),"usg code is secondary usage, which is included in main usage"
+5568,73,נווה מדבר,32721,0,0,0,0,0,0,0,0,מגורים בנייה נמוכה  (10-15 מטרים),"usg code is secondary usage, which is included in main usage"
+5568,73,נווה מדבר,32721,0,0,0,0,0,0,0,0,מגורים בניה גבוהה (16-27 מטרים),"usg code is secondary usage, which is included in main usage"
+5568,73,נווה מדבר,32721,0,0,0,0,0,0,0,0,מגורים בניה רב קומות (מעל 28 מטרים ומעלה),"usg code is secondary usage, which is included in main usage"
+5568,73,נווה מדבר,32721,0,16,3.4,1.8,0,0,1.5,0.3,תעשייה,usg code is main usage
+5568,73,נווה מדבר,32721,0,11,1.4,0.6,0,0,0,0.1,תשתיות ומתקנים הנדסיים,usg code is main usage
+5568,73,נווה מדבר,32721,0.7,20,5,2.1,0.7,0.1,25.7,0.3,"מסחר, משרדים ותיירות",usg code is main usage
+5568,73,נווה מדבר,32721,1.7,469,83.6,41.3,1.2,0.2,4,5.9,חקלאות,usg code is main usage
+5568,73,נווה מדבר,32721,1.1,195,32.4,14.3,0.7,0.2,7.1,2,אחר,usg code is main usage

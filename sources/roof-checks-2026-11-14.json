@@ -1,0 +1,77 @@
+[
+  {
+    "education_id": "618033",
+    "status": "located_no_energy",
+    "description": "אותרה נקודת העניין בית ספר אבו קורינת ונבדק גג במתחם בית הספר; לא התקבל כרטיס אנרגיה בנקודה שנבדקה. אין להסיק מכך שפוטנציאל הגג הוא אפס.",
+    "x": 196508,
+    "y": 559000,
+    "evidence": "energy/no-energy-qrinat-primary.jpg",
+    "checked_at": "2026-11-14",
+    "source_url": "https://www.govmap.gov.il/sites/energy/index.html?map=solar_panels"
+  },
+  {
+    "education_id": "633438",
+    "status": "located_no_energy",
+    "description": "נקודת משרד החינוך הייחודית ליסודי אבו סולב (195386,565346) נבדקה על הגג. נקודת הבדיקה נמצאת במרחק כ-4 מטר מהנקודה; לא התקבל כרטיס אנרגיה. נקודת העניין הסמוכה במפה מסומנת כגן ילדים ואינה הוכחה לזהות בית הספר. אין ערך פוטנציאל שניתן לקשר כעת.",
+    "x": 195383,
+    "y": 565343,
+    "evidence": "energy/no-energy-abu-sulb.jpg",
+    "checked_at": "2026-11-14",
+    "source_url": "https://www.govmap.gov.il/sites/energy/index.html?map=solar_panels"
+  },
+  {
+    "education_id": "618603",
+    "status": "located_no_energy",
+    "description": "נבדקה נקודת משרד החינוך המדויקת במתחם אבו קוידר וגם נראה שאין שכבת פוטנציאל על גגות המתחם בתצוגה שנבדקה. לא התקבל כרטיס אנרגיה בנקודה; אין להסיק מכך שפוטנציאל הייצור הוא אפס.",
+    "x": 192670,
+    "y": 568104,
+    "evidence": "energy/no-energy-neve-primary.jpg",
+    "checked_at": "2026-11-14",
+    "source_url": "https://www.govmap.gov.il/sites/energy/index.html?map=solar_panels"
+  },
+  {
+    "education_id": "761643",
+    "status": "located_no_energy",
+    "description": "נבדקה נקודת משרד החינוך המדויקת במתחם אבו קוידר וגם נראה שאין שכבת פוטנציאל על גגות המתחם בתצוגה שנבדקה. לא התקבל כרטיס אנרגיה בנקודה; אין להסיק מכך שפוטנציאל הייצור הוא אפס.",
+    "x": 192560,
+    "y": 568092,
+    "evidence": "energy/no-energy-ort-quider.jpg",
+    "checked_at": "2026-11-14",
+    "source_url": "https://www.govmap.gov.il/sites/energy/index.html?map=solar_panels"
+  },
+  {
+    "education_id": "643577",
+    "status": "name_unresolved",
+    "description": "בחיפוש אלהאלל / אלהלאל במפת האנרגיה: לא נמצאה נקודת מוסד; באיות החלופי התקבלו רחובות ביישובים אחרים. מיקום משרד החינוך הוא ברמת יישוב בלבד; אין שיוך גג מבוסס עבור אורט אלהאלל.",
+    "checked_at": "2026-11-14",
+    "source_url": "https://www.govmap.gov.il/sites/energy/index.html?map=solar_panels"
+  },
+  {
+    "education_id": "682633",
+    "status": "name_unresolved",
+    "description": "בחיפוש אלביאן קסר במפת האנרגיה: התקבלו רחובות אל-ביאן ביישובים אחרים. מיקום משרד החינוך הוא ברמת יישוב בלבד; אין שיוך גג מבוסס עבור אלביאן קסר אסר.",
+    "checked_at": "2026-11-14",
+    "source_url": "https://www.govmap.gov.il/sites/energy/index.html?map=solar_panels"
+  },
+  {
+    "education_id": "659417",
+    "status": "name_unresolved",
+    "description": "בחיפוש חאשם זאנה במפת האנרגיה: לא נמצאה נקודת עניין מזוהה. מיקום משרד החינוך הוא ברמת יישוב בלבד; אין שיוך גג מבוסס עבור חאשם זאנה.",
+    "checked_at": "2026-11-14",
+    "source_url": "https://www.govmap.gov.il/sites/energy/index.html?map=solar_panels"
+  },
+  {
+    "education_id": "632786",
+    "status": "name_unresolved",
+    "description": "בחיפוש בית ספר רחמה התקבל בית ספר אל רחמה בטייבה, ובחיפוש רכמה לא התקבלה נקודת מוסד מתאימה. מקור החינוך מציין מיקום ברמת יישוב בלבד, ולכן לא שויך גג.",
+    "checked_at": "2026-11-14",
+    "source_url": "https://www.govmap.gov.il/sites/energy/index.html?map=solar_panels"
+  },
+  {
+    "education_id": "785303",
+    "status": "name_unresolved",
+    "description": "חיפוש ואדי אל נעים במפת האנרגיה החזיר שכונה ורחובות ביישובים אחרים; לא נמצאה נקודת מוסד מזוהה. מיקום משרד החינוך הוא ברמת יישוב בלבד ולכן לא שויך גג.",
+    "checked_at": "2026-11-14",
+    "source_url": "https://www.govmap.gov.il/sites/energy/index.html?map=solar_panels"
+  }
+]

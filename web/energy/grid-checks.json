@@ -1,0 +1,3667 @@
+{
+  "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697",
+  "explanation_url": "https://www.iec.co.il/content/renewableenergy/contentpages/probabilitymap",
+  "layer_url": "https://services3.arcgis.com/IwBfWsA3Hiwd5dEw/arcgis/rest/services/LV_DAY/FeatureServer/3",
+  "map_updated_at": "2026-10-18",
+  "checked_at": "2026-11-14",
+  "limitations": "הערכה ראשונית ברמת תחנת משנה לפי מגבלות הולכה; אינה בדיקת רשת החלוקה, סוג החיבור בפועל או תשובת מחלק. מיקום ברמת יישוב בלבד אינו משויך.",
+  "records": [
+    {
+      "asset_id": "edu:67090",
+      "name": "ביר האדג",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:119545",
+      "name": "אל אעסם ב'",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:119552",
+      "name": "אלמוסתקבל",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:129163",
+      "name": "נווה מדבר",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:130526",
+      "name": "אלהואשלה א'",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:134775",
+      "name": "אבו קרינאת א'",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:134791",
+      "name": "נווה מדבר",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:143313",
+      "name": "אל אעסם ב'",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:155861",
+      "name": "נווה מדבר",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:155879",
+      "name": "נווה מדבר",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:155978",
+      "name": "אבו קרינאת א'",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:156042",
+      "name": "אלהואשלה חסין",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:156570",
+      "name": "עזזמה א'",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:165696",
+      "name": "אלמוסתקבל",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:165712",
+      "name": "אל אעסם ב'",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:172841",
+      "name": "נווה מדבר",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:172916",
+      "name": "אלהואשלה א'",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:172924",
+      "name": "אל אעסם ב'",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:172940",
+      "name": "אלמוסתקבל",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:174128",
+      "name": "עבדת",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:174136",
+      "name": "ביר הדאג' אלאימאן",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:174144",
+      "name": "ביר הדאג'",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:174151",
+      "name": "ביר הדאג' אלאימאן",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:174169",
+      "name": "עבדת",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:174177",
+      "name": "ביר הדאג'",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:176123",
+      "name": "עזזמה א'",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:176131",
+      "name": "עזזמה א'",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:184770",
+      "name": "אבו קרינאת א'",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:184853",
+      "name": "עזזמה א'",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:184861",
+      "name": "עזזמה א'",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:184879",
+      "name": "עזזמה א'",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:184903",
+      "name": "נווה מדבר",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:196659",
+      "name": "נווה מדבר",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:222141",
+      "name": "אלמוסתקבל",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:222158",
+      "name": "אל אעסם ב'",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:222166",
+      "name": "אלהואשלה דרום",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:222174",
+      "name": "אלהואשלה מרכז",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:222216",
+      "name": "נווה מדבר",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:223248",
+      "name": "עזזמה א'",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:232348",
+      "name": "ביר הדאג'",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:232389",
+      "name": "אבו קרינאת א'",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:232397",
+      "name": "אלהואשלה דרום",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:232413",
+      "name": "ביר אלמשאש",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:236083",
+      "name": "ביר אלמשאש",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:236802",
+      "name": "עזזמה א'",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:247718",
+      "name": "ביר אלמשאש",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:247734",
+      "name": "עזזמה א'",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:247767",
+      "name": "אלהואשלה א'",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:266957",
+      "name": "אבו קרינאת ב'",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:315853",
+      "name": "ביר אלמשאש",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:315887",
+      "name": "נווה מדבר",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:315895",
+      "name": "עזזמה א'",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:335463",
+      "name": "ביר אלמשאש",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:335570",
+      "name": "אלהואשלה צפון",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:335588",
+      "name": "אבו קרינאת ב'",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:335596",
+      "name": "אבו קרינאת ב'",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:346114",
+      "name": "עזזמה ג'",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:357921",
+      "name": "אלהואשלה א'",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:372540",
+      "name": "רחמה",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:453597",
+      "name": "אלהואשלה מיוחד",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:472795",
+      "name": "אלמוסתקבל מיוחד",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:474445",
+      "name": "אל אעסם ב'",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:516385",
+      "name": "עזזמה ג'",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:526384",
+      "name": "אלמוסתקבל",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:528141",
+      "name": "ביר הדאג'",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:528349",
+      "name": "עזזמה א'",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:529321",
+      "name": "נווה מדבר",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:530519",
+      "name": "רחמה",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:539874",
+      "name": "אלהואשלה צפון",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:539882",
+      "name": "אבו קרינאת חינוך מיו",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:539890",
+      "name": "אלמוסתקבל",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:561258",
+      "name": "אבו קרינאת א'",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:561308",
+      "name": "אלהושאלה מזרח",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:561530",
+      "name": "אל אעסם ב'",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:565028",
+      "name": "ביר הדאג'",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:566240",
+      "name": "ביר אלמשאש",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:566935",
+      "name": "עזאזמה א",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:572529",
+      "name": "אלהואשלה מזרח",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:572537",
+      "name": "אלהואשלה א'",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:572545",
+      "name": "אלמוסתקבל",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:572552",
+      "name": "אל אעסם ב'",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:572560",
+      "name": "אלאמל בי הדאג'",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:572578",
+      "name": "אבו קרינאת ב'",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:572776",
+      "name": "אלאמל ביר הדאג' 2",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:572784",
+      "name": "אלאמל ביר הדרג' 3",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:572883",
+      "name": "אבו קרינאת ב'",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:572925",
+      "name": "אבו קרינאת",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:572990",
+      "name": "אלאמל",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:600007",
+      "name": "אלמג'ד",
+      "points": [
+        {
+          "x": 196124,
+          "y": 561847,
+          "basis": "נקודה בתוך גג ששויך במפת המקור",
+          "roof_id": "roof-600007-196124-561847",
+          "query_url": "https://services3.arcgis.com/IwBfWsA3Hiwd5dEw/arcgis/rest/services/LV_DAY/FeatureServer/3/query?f=json&geometry=196124%2C561847&geometryType=esriGeometryPoint&inSR=2039&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CPOTENTIALITY_TO_CONNECT_D_LV%2CPOTENTIALITY_TO_CONNECT_N_LV%2CPOTENTIALITY_TO_CONNECT_D_MV%2CPOTENTIALITY_TO_CONNECT_N_MV&returnGeometry=false",
+          "matches": [
+            {
+              "OBJECTID": 1635,
+              "POTENTIALITY_TO_CONNECT_D_LV": "גבוהה מאוד",
+              "POTENTIALITY_TO_CONNECT_N_LV": "גבוהה מאוד",
+              "POTENTIALITY_TO_CONNECT_D_MV": "נמוכה מאוד",
+              "POTENTIALITY_TO_CONNECT_N_MV": "גבוהה"
+            }
+          ],
+          "status": "mapped"
+        }
+      ],
+      "status": "mapped",
+      "ratings": {
+        "POTENTIALITY_TO_CONNECT_D_LV": [
+          "גבוהה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_LV": [
+          "גבוהה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_D_MV": [
+          "נמוכה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_MV": [
+          "גבוהה"
+        ]
+      },
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:578757",
+      "name": "עזאזמה",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:578765",
+      "name": "אבו קרינאת ב'",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:578773",
+      "name": "רחמה",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:578781",
+      "name": "אלהואשלה",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:578799",
+      "name": "אבו סולב",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:578807",
+      "name": "אבו סולב",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:578815",
+      "name": "אבו סולב",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:578823",
+      "name": "אבו סולב",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:578831",
+      "name": "אלהואשלה צפון",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:578849",
+      "name": "עזאזמה ב'",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:578922",
+      "name": "אל אעסם ב'",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:579078",
+      "name": "נווה מדבר",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:579144",
+      "name": "אלמוסתקבל",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:579151",
+      "name": "אלמוסתקבל",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:606731",
+      "name": "אל אעסם ב'",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:606749",
+      "name": "אלמוסתקבל",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:606798",
+      "name": "אבו קרינאת א'",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:606830",
+      "name": "הואשלה",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:611152",
+      "name": "אלנג'אח",
+      "points": [
+        {
+          "x": 198254,
+          "y": 555551,
+          "basis": "נקודה בתוך גג ששויך במפת המקור",
+          "roof_id": "roof-611152-198254-555551",
+          "query_url": "https://services3.arcgis.com/IwBfWsA3Hiwd5dEw/arcgis/rest/services/LV_DAY/FeatureServer/3/query?f=json&geometry=198254%2C555551&geometryType=esriGeometryPoint&inSR=2039&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CPOTENTIALITY_TO_CONNECT_D_LV%2CPOTENTIALITY_TO_CONNECT_N_LV%2CPOTENTIALITY_TO_CONNECT_D_MV%2CPOTENTIALITY_TO_CONNECT_N_MV&returnGeometry=false",
+          "matches": [
+            {
+              "OBJECTID": 1635,
+              "POTENTIALITY_TO_CONNECT_D_LV": "גבוהה מאוד",
+              "POTENTIALITY_TO_CONNECT_N_LV": "גבוהה מאוד",
+              "POTENTIALITY_TO_CONNECT_D_MV": "נמוכה מאוד",
+              "POTENTIALITY_TO_CONNECT_N_MV": "גבוהה"
+            }
+          ],
+          "status": "mapped"
+        }
+      ],
+      "status": "mapped",
+      "ratings": {
+        "POTENTIALITY_TO_CONNECT_D_LV": [
+          "גבוהה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_LV": [
+          "גבוהה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_D_MV": [
+          "נמוכה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_MV": [
+          "גבוהה"
+        ]
+      },
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:618033",
+      "name": "אבו קרינאת",
+      "points": [
+        {
+          "x": 196508,
+          "y": 559000,
+          "basis": "נקודת מוסד שנבדקה במפה; טרם התקבל נתון גג",
+          "query_url": "https://services3.arcgis.com/IwBfWsA3Hiwd5dEw/arcgis/rest/services/LV_DAY/FeatureServer/3/query?f=json&geometry=196508%2C559000&geometryType=esriGeometryPoint&inSR=2039&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CPOTENTIALITY_TO_CONNECT_D_LV%2CPOTENTIALITY_TO_CONNECT_N_LV%2CPOTENTIALITY_TO_CONNECT_D_MV%2CPOTENTIALITY_TO_CONNECT_N_MV&returnGeometry=false",
+          "matches": [
+            {
+              "OBJECTID": 1635,
+              "POTENTIALITY_TO_CONNECT_D_LV": "גבוהה מאוד",
+              "POTENTIALITY_TO_CONNECT_N_LV": "גבוהה מאוד",
+              "POTENTIALITY_TO_CONNECT_D_MV": "נמוכה מאוד",
+              "POTENTIALITY_TO_CONNECT_N_MV": "גבוהה"
+            }
+          ],
+          "status": "mapped"
+        }
+      ],
+      "status": "mapped",
+      "ratings": {
+        "POTENTIALITY_TO_CONNECT_D_LV": [
+          "גבוהה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_LV": [
+          "גבוהה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_D_MV": [
+          "נמוכה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_MV": [
+          "גבוהה"
+        ]
+      },
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:618108",
+      "name": "אלעזאזמה ב'",
+      "points": [
+        {
+          "x": 182992,
+          "y": 563643,
+          "basis": "נקודת מוסד שנבדקה במפה; טרם התקבל נתון גג",
+          "query_url": "https://services3.arcgis.com/IwBfWsA3Hiwd5dEw/arcgis/rest/services/LV_DAY/FeatureServer/3/query?f=json&geometry=182992%2C563643&geometryType=esriGeometryPoint&inSR=2039&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CPOTENTIALITY_TO_CONNECT_D_LV%2CPOTENTIALITY_TO_CONNECT_N_LV%2CPOTENTIALITY_TO_CONNECT_D_MV%2CPOTENTIALITY_TO_CONNECT_N_MV&returnGeometry=false",
+          "matches": [
+            {
+              "OBJECTID": 1581,
+              "POTENTIALITY_TO_CONNECT_D_LV": "גבוהה",
+              "POTENTIALITY_TO_CONNECT_N_LV": "גבוהה",
+              "POTENTIALITY_TO_CONNECT_D_MV": "נמוכה מאוד",
+              "POTENTIALITY_TO_CONNECT_N_MV": "נמוכה מאוד"
+            }
+          ],
+          "status": "mapped"
+        }
+      ],
+      "status": "mapped",
+      "ratings": {
+        "POTENTIALITY_TO_CONNECT_D_LV": [
+          "גבוהה"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_LV": [
+          "גבוהה"
+        ],
+        "POTENTIALITY_TO_CONNECT_D_MV": [
+          "נמוכה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_MV": [
+          "נמוכה מאוד"
+        ]
+      },
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:618165",
+      "name": "אלמסתקבל",
+      "points": [
+        {
+          "x": 193150,
+          "y": 566550,
+          "basis": "נקודה בתוך גג ששויך במפת המקור",
+          "roof_id": "roof-618165-193150-566550",
+          "query_url": "https://services3.arcgis.com/IwBfWsA3Hiwd5dEw/arcgis/rest/services/LV_DAY/FeatureServer/3/query?f=json&geometry=193150%2C566550&geometryType=esriGeometryPoint&inSR=2039&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CPOTENTIALITY_TO_CONNECT_D_LV%2CPOTENTIALITY_TO_CONNECT_N_LV%2CPOTENTIALITY_TO_CONNECT_D_MV%2CPOTENTIALITY_TO_CONNECT_N_MV&returnGeometry=false",
+          "matches": [
+            {
+              "OBJECTID": 1536,
+              "POTENTIALITY_TO_CONNECT_D_LV": "גבוהה",
+              "POTENTIALITY_TO_CONNECT_N_LV": "גבוהה",
+              "POTENTIALITY_TO_CONNECT_D_MV": "נמוכה",
+              "POTENTIALITY_TO_CONNECT_N_MV": "נמוכה מאוד"
+            }
+          ],
+          "status": "mapped"
+        },
+        {
+          "x": 193154,
+          "y": 566471,
+          "basis": "נקודה בתוך גג ששויך במפת המקור",
+          "roof_id": "roof-618165-193154-566471",
+          "query_url": "https://services3.arcgis.com/IwBfWsA3Hiwd5dEw/arcgis/rest/services/LV_DAY/FeatureServer/3/query?f=json&geometry=193154%2C566471&geometryType=esriGeometryPoint&inSR=2039&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CPOTENTIALITY_TO_CONNECT_D_LV%2CPOTENTIALITY_TO_CONNECT_N_LV%2CPOTENTIALITY_TO_CONNECT_D_MV%2CPOTENTIALITY_TO_CONNECT_N_MV&returnGeometry=false",
+          "matches": [
+            {
+              "OBJECTID": 1536,
+              "POTENTIALITY_TO_CONNECT_D_LV": "גבוהה",
+              "POTENTIALITY_TO_CONNECT_N_LV": "גבוהה",
+              "POTENTIALITY_TO_CONNECT_D_MV": "נמוכה",
+              "POTENTIALITY_TO_CONNECT_N_MV": "נמוכה מאוד"
+            }
+          ],
+          "status": "mapped"
+        }
+      ],
+      "status": "mapped",
+      "ratings": {
+        "POTENTIALITY_TO_CONNECT_D_LV": [
+          "גבוהה"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_LV": [
+          "גבוהה"
+        ],
+        "POTENTIALITY_TO_CONNECT_D_MV": [
+          "נמוכה"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_MV": [
+          "נמוכה מאוד"
+        ]
+      },
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:618199",
+      "name": "אלהושאלה",
+      "points": [
+        {
+          "x": 198706,
+          "y": 555296,
+          "basis": "נקודה בתוך גג ששויך במפת המקור",
+          "roof_id": "roof-618199-198706-555296",
+          "query_url": "https://services3.arcgis.com/IwBfWsA3Hiwd5dEw/arcgis/rest/services/LV_DAY/FeatureServer/3/query?f=json&geometry=198706%2C555296&geometryType=esriGeometryPoint&inSR=2039&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CPOTENTIALITY_TO_CONNECT_D_LV%2CPOTENTIALITY_TO_CONNECT_N_LV%2CPOTENTIALITY_TO_CONNECT_D_MV%2CPOTENTIALITY_TO_CONNECT_N_MV&returnGeometry=false",
+          "matches": [
+            {
+              "OBJECTID": 1635,
+              "POTENTIALITY_TO_CONNECT_D_LV": "גבוהה מאוד",
+              "POTENTIALITY_TO_CONNECT_N_LV": "גבוהה מאוד",
+              "POTENTIALITY_TO_CONNECT_D_MV": "נמוכה מאוד",
+              "POTENTIALITY_TO_CONNECT_N_MV": "גבוהה"
+            }
+          ],
+          "status": "mapped"
+        }
+      ],
+      "status": "mapped",
+      "ratings": {
+        "POTENTIALITY_TO_CONNECT_D_LV": [
+          "גבוהה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_LV": [
+          "גבוהה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_D_MV": [
+          "נמוכה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_MV": [
+          "גבוהה"
+        ]
+      },
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:618355",
+      "name": "אל אעצם ב'",
+      "points": [
+        {
+          "x": 193637,
+          "y": 566414,
+          "basis": "נקודה בתוך גג ששויך במפת המקור",
+          "roof_id": "roof-618355-193637-566414",
+          "query_url": "https://services3.arcgis.com/IwBfWsA3Hiwd5dEw/arcgis/rest/services/LV_DAY/FeatureServer/3/query?f=json&geometry=193637%2C566414&geometryType=esriGeometryPoint&inSR=2039&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CPOTENTIALITY_TO_CONNECT_D_LV%2CPOTENTIALITY_TO_CONNECT_N_LV%2CPOTENTIALITY_TO_CONNECT_D_MV%2CPOTENTIALITY_TO_CONNECT_N_MV&returnGeometry=false",
+          "matches": [
+            {
+              "OBJECTID": 1536,
+              "POTENTIALITY_TO_CONNECT_D_LV": "גבוהה",
+              "POTENTIALITY_TO_CONNECT_N_LV": "גבוהה",
+              "POTENTIALITY_TO_CONNECT_D_MV": "נמוכה",
+              "POTENTIALITY_TO_CONNECT_N_MV": "נמוכה מאוד"
+            }
+          ],
+          "status": "mapped"
+        },
+        {
+          "x": 193678,
+          "y": 566475,
+          "basis": "נקודה בתוך גג ששויך במפת המקור",
+          "roof_id": "roof-618355-193678-566475",
+          "query_url": "https://services3.arcgis.com/IwBfWsA3Hiwd5dEw/arcgis/rest/services/LV_DAY/FeatureServer/3/query?f=json&geometry=193678%2C566475&geometryType=esriGeometryPoint&inSR=2039&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CPOTENTIALITY_TO_CONNECT_D_LV%2CPOTENTIALITY_TO_CONNECT_N_LV%2CPOTENTIALITY_TO_CONNECT_D_MV%2CPOTENTIALITY_TO_CONNECT_N_MV&returnGeometry=false",
+          "matches": [
+            {
+              "OBJECTID": 1536,
+              "POTENTIALITY_TO_CONNECT_D_LV": "גבוהה",
+              "POTENTIALITY_TO_CONNECT_N_LV": "גבוהה",
+              "POTENTIALITY_TO_CONNECT_D_MV": "נמוכה",
+              "POTENTIALITY_TO_CONNECT_N_MV": "נמוכה מאוד"
+            }
+          ],
+          "status": "mapped"
+        }
+      ],
+      "status": "mapped",
+      "ratings": {
+        "POTENTIALITY_TO_CONNECT_D_LV": [
+          "גבוהה"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_LV": [
+          "גבוהה"
+        ],
+        "POTENTIALITY_TO_CONNECT_D_MV": [
+          "נמוכה"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_MV": [
+          "נמוכה מאוד"
+        ]
+      },
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:618595",
+      "name": "באר-חייל ביר הדג'ג",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:618603",
+      "name": "נווה-מדבר",
+      "points": [
+        {
+          "x": 192670,
+          "y": 568104,
+          "basis": "נקודת מוסד שנבדקה במפה; טרם התקבל נתון גג",
+          "query_url": "https://services3.arcgis.com/IwBfWsA3Hiwd5dEw/arcgis/rest/services/LV_DAY/FeatureServer/3/query?f=json&geometry=192670%2C568104&geometryType=esriGeometryPoint&inSR=2039&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CPOTENTIALITY_TO_CONNECT_D_LV%2CPOTENTIALITY_TO_CONNECT_N_LV%2CPOTENTIALITY_TO_CONNECT_D_MV%2CPOTENTIALITY_TO_CONNECT_N_MV&returnGeometry=false",
+          "matches": [
+            {
+              "OBJECTID": 1536,
+              "POTENTIALITY_TO_CONNECT_D_LV": "גבוהה",
+              "POTENTIALITY_TO_CONNECT_N_LV": "גבוהה",
+              "POTENTIALITY_TO_CONNECT_D_MV": "נמוכה",
+              "POTENTIALITY_TO_CONNECT_N_MV": "נמוכה מאוד"
+            }
+          ],
+          "status": "mapped"
+        }
+      ],
+      "status": "mapped",
+      "ratings": {
+        "POTENTIALITY_TO_CONNECT_D_LV": [
+          "גבוהה"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_LV": [
+          "גבוהה"
+        ],
+        "POTENTIALITY_TO_CONNECT_D_MV": [
+          "נמוכה"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_MV": [
+          "נמוכה מאוד"
+        ]
+      },
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:618702",
+      "name": "אל עזאזמה א",
+      "points": [
+        {
+          "x": 183005,
+          "y": 563706,
+          "basis": "נקודת מוסד שנבדקה במפה; טרם התקבל נתון גג",
+          "query_url": "https://services3.arcgis.com/IwBfWsA3Hiwd5dEw/arcgis/rest/services/LV_DAY/FeatureServer/3/query?f=json&geometry=183005%2C563706&geometryType=esriGeometryPoint&inSR=2039&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CPOTENTIALITY_TO_CONNECT_D_LV%2CPOTENTIALITY_TO_CONNECT_N_LV%2CPOTENTIALITY_TO_CONNECT_D_MV%2CPOTENTIALITY_TO_CONNECT_N_MV&returnGeometry=false",
+          "matches": [
+            {
+              "OBJECTID": 1581,
+              "POTENTIALITY_TO_CONNECT_D_LV": "גבוהה",
+              "POTENTIALITY_TO_CONNECT_N_LV": "גבוהה",
+              "POTENTIALITY_TO_CONNECT_D_MV": "נמוכה מאוד",
+              "POTENTIALITY_TO_CONNECT_N_MV": "נמוכה מאוד"
+            }
+          ],
+          "status": "mapped"
+        }
+      ],
+      "status": "mapped",
+      "ratings": {
+        "POTENTIALITY_TO_CONNECT_D_LV": [
+          "גבוהה"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_LV": [
+          "גבוהה"
+        ],
+        "POTENTIALITY_TO_CONNECT_D_MV": [
+          "נמוכה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_MV": [
+          "נמוכה מאוד"
+        ]
+      },
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:618710",
+      "name": "יסודי חדש בבית פלט",
+      "points": [
+        {
+          "x": 196036,
+          "y": 560403,
+          "basis": "נקודה בתוך גג ששויך במפת המקור",
+          "roof_id": "roof-618710-196036-560403",
+          "query_url": "https://services3.arcgis.com/IwBfWsA3Hiwd5dEw/arcgis/rest/services/LV_DAY/FeatureServer/3/query?f=json&geometry=196036%2C560403&geometryType=esriGeometryPoint&inSR=2039&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CPOTENTIALITY_TO_CONNECT_D_LV%2CPOTENTIALITY_TO_CONNECT_N_LV%2CPOTENTIALITY_TO_CONNECT_D_MV%2CPOTENTIALITY_TO_CONNECT_N_MV&returnGeometry=false",
+          "matches": [
+            {
+              "OBJECTID": 1635,
+              "POTENTIALITY_TO_CONNECT_D_LV": "גבוהה מאוד",
+              "POTENTIALITY_TO_CONNECT_N_LV": "גבוהה מאוד",
+              "POTENTIALITY_TO_CONNECT_D_MV": "נמוכה מאוד",
+              "POTENTIALITY_TO_CONNECT_N_MV": "גבוהה"
+            }
+          ],
+          "status": "mapped"
+        }
+      ],
+      "status": "mapped",
+      "ratings": {
+        "POTENTIALITY_TO_CONNECT_D_LV": [
+          "גבוהה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_LV": [
+          "גבוהה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_D_MV": [
+          "נמוכה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_MV": [
+          "גבוהה"
+        ]
+      },
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:618728",
+      "name": "יסודי חדש באלהוואשלה",
+      "points": [
+        {
+          "x": 198404,
+          "y": 554431,
+          "basis": "נקודה בתוך גג ששויך במפת המקור",
+          "roof_id": "roof-618728-198404-554431",
+          "query_url": "https://services3.arcgis.com/IwBfWsA3Hiwd5dEw/arcgis/rest/services/LV_DAY/FeatureServer/3/query?f=json&geometry=198404%2C554431&geometryType=esriGeometryPoint&inSR=2039&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CPOTENTIALITY_TO_CONNECT_D_LV%2CPOTENTIALITY_TO_CONNECT_N_LV%2CPOTENTIALITY_TO_CONNECT_D_MV%2CPOTENTIALITY_TO_CONNECT_N_MV&returnGeometry=false",
+          "matches": [
+            {
+              "OBJECTID": 1635,
+              "POTENTIALITY_TO_CONNECT_D_LV": "גבוהה מאוד",
+              "POTENTIALITY_TO_CONNECT_N_LV": "גבוהה מאוד",
+              "POTENTIALITY_TO_CONNECT_D_MV": "נמוכה מאוד",
+              "POTENTIALITY_TO_CONNECT_N_MV": "גבוהה"
+            }
+          ],
+          "status": "mapped"
+        }
+      ],
+      "status": "mapped",
+      "ratings": {
+        "POTENTIALITY_TO_CONNECT_D_LV": [
+          "גבוהה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_LV": [
+          "גבוהה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_D_MV": [
+          "נמוכה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_MV": [
+          "גבוהה"
+        ]
+      },
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:618785",
+      "name": "ביר אלמשוש",
+      "points": [
+        {
+          "x": 195244,
+          "y": 567428,
+          "basis": "נקודה בתוך גג ששויך במפת המקור",
+          "roof_id": "roof-618785-195244-567428",
+          "query_url": "https://services3.arcgis.com/IwBfWsA3Hiwd5dEw/arcgis/rest/services/LV_DAY/FeatureServer/3/query?f=json&geometry=195244%2C567428&geometryType=esriGeometryPoint&inSR=2039&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CPOTENTIALITY_TO_CONNECT_D_LV%2CPOTENTIALITY_TO_CONNECT_N_LV%2CPOTENTIALITY_TO_CONNECT_D_MV%2CPOTENTIALITY_TO_CONNECT_N_MV&returnGeometry=false",
+          "matches": [
+            {
+              "OBJECTID": 1536,
+              "POTENTIALITY_TO_CONNECT_D_LV": "גבוהה",
+              "POTENTIALITY_TO_CONNECT_N_LV": "גבוהה",
+              "POTENTIALITY_TO_CONNECT_D_MV": "נמוכה",
+              "POTENTIALITY_TO_CONNECT_N_MV": "נמוכה מאוד"
+            }
+          ],
+          "status": "mapped"
+        }
+      ],
+      "status": "mapped",
+      "ratings": {
+        "POTENTIALITY_TO_CONNECT_D_LV": [
+          "גבוהה"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_LV": [
+          "גבוהה"
+        ],
+        "POTENTIALITY_TO_CONNECT_D_MV": [
+          "נמוכה"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_MV": [
+          "נמוכה מאוד"
+        ]
+      },
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:618793",
+      "name": "עובדת",
+      "points": [
+        {
+          "x": 176020,
+          "y": 524810,
+          "basis": "נקודת מוסד שנבדקה במפה; טרם התקבל נתון גג",
+          "query_url": "https://services3.arcgis.com/IwBfWsA3Hiwd5dEw/arcgis/rest/services/LV_DAY/FeatureServer/3/query?f=json&geometry=176020%2C524810&geometryType=esriGeometryPoint&inSR=2039&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CPOTENTIALITY_TO_CONNECT_D_LV%2CPOTENTIALITY_TO_CONNECT_N_LV%2CPOTENTIALITY_TO_CONNECT_D_MV%2CPOTENTIALITY_TO_CONNECT_N_MV&returnGeometry=false",
+          "matches": [
+            {
+              "OBJECTID": 1612,
+              "POTENTIALITY_TO_CONNECT_D_LV": "גבוהה",
+              "POTENTIALITY_TO_CONNECT_N_LV": "גבוהה",
+              "POTENTIALITY_TO_CONNECT_D_MV": "נמוכה",
+              "POTENTIALITY_TO_CONNECT_N_MV": "נמוכה"
+            }
+          ],
+          "status": "mapped"
+        }
+      ],
+      "status": "mapped",
+      "ratings": {
+        "POTENTIALITY_TO_CONNECT_D_LV": [
+          "גבוהה"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_LV": [
+          "גבוהה"
+        ],
+        "POTENTIALITY_TO_CONNECT_D_MV": [
+          "נמוכה"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_MV": [
+          "נמוכה"
+        ]
+      },
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:618819",
+      "name": "אלאימאן",
+      "points": [
+        {
+          "x": 171408,
+          "y": 548187,
+          "basis": "נקודה בתוך גג ששויך במפת המקור",
+          "roof_id": "roof-618819-171408-548187",
+          "query_url": "https://services3.arcgis.com/IwBfWsA3Hiwd5dEw/arcgis/rest/services/LV_DAY/FeatureServer/3/query?f=json&geometry=171408%2C548187&geometryType=esriGeometryPoint&inSR=2039&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CPOTENTIALITY_TO_CONNECT_D_LV%2CPOTENTIALITY_TO_CONNECT_N_LV%2CPOTENTIALITY_TO_CONNECT_D_MV%2CPOTENTIALITY_TO_CONNECT_N_MV&returnGeometry=false",
+          "matches": [
+            {
+              "OBJECTID": 1603,
+              "POTENTIALITY_TO_CONNECT_D_LV": "נמוכה מאוד",
+              "POTENTIALITY_TO_CONNECT_N_LV": "גבוהה מאוד",
+              "POTENTIALITY_TO_CONNECT_D_MV": "נמוכה מאוד",
+              "POTENTIALITY_TO_CONNECT_N_MV": "נמוכה מאוד"
+            }
+          ],
+          "status": "mapped"
+        }
+      ],
+      "status": "mapped",
+      "ratings": {
+        "POTENTIALITY_TO_CONNECT_D_LV": [
+          "נמוכה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_LV": [
+          "גבוהה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_D_MV": [
+          "נמוכה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_MV": [
+          "נמוכה מאוד"
+        ]
+      },
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:618876",
+      "name": "אל אמל",
+      "points": [
+        {
+          "x": 172464,
+          "y": 547637,
+          "basis": "נקודה בתוך גג ששויך במפת המקור",
+          "roof_id": "roof-618876-172464-547637",
+          "query_url": "https://services3.arcgis.com/IwBfWsA3Hiwd5dEw/arcgis/rest/services/LV_DAY/FeatureServer/3/query?f=json&geometry=172464%2C547637&geometryType=esriGeometryPoint&inSR=2039&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CPOTENTIALITY_TO_CONNECT_D_LV%2CPOTENTIALITY_TO_CONNECT_N_LV%2CPOTENTIALITY_TO_CONNECT_D_MV%2CPOTENTIALITY_TO_CONNECT_N_MV&returnGeometry=false",
+          "matches": [
+            {
+              "OBJECTID": 1603,
+              "POTENTIALITY_TO_CONNECT_D_LV": "נמוכה מאוד",
+              "POTENTIALITY_TO_CONNECT_N_LV": "גבוהה מאוד",
+              "POTENTIALITY_TO_CONNECT_D_MV": "נמוכה מאוד",
+              "POTENTIALITY_TO_CONNECT_N_MV": "נמוכה מאוד"
+            }
+          ],
+          "status": "mapped"
+        }
+      ],
+      "status": "mapped",
+      "ratings": {
+        "POTENTIALITY_TO_CONNECT_D_LV": [
+          "נמוכה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_LV": [
+          "גבוהה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_D_MV": [
+          "נמוכה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_MV": [
+          "נמוכה מאוד"
+        ]
+      },
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:618892",
+      "name": "אלעזאזמה ג'",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:610360",
+      "name": "בי\"ס חנ\"מ נווה מדבר",
+      "points": [
+        {
+          "x": 196222,
+          "y": 560083,
+          "basis": "נקודה בתוך גג ששויך במפת המקור",
+          "roof_id": "roof-610360-196222-560083",
+          "query_url": "https://services3.arcgis.com/IwBfWsA3Hiwd5dEw/arcgis/rest/services/LV_DAY/FeatureServer/3/query?f=json&geometry=196222%2C560083&geometryType=esriGeometryPoint&inSR=2039&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CPOTENTIALITY_TO_CONNECT_D_LV%2CPOTENTIALITY_TO_CONNECT_N_LV%2CPOTENTIALITY_TO_CONNECT_D_MV%2CPOTENTIALITY_TO_CONNECT_N_MV&returnGeometry=false",
+          "matches": [
+            {
+              "OBJECTID": 1635,
+              "POTENTIALITY_TO_CONNECT_D_LV": "גבוהה מאוד",
+              "POTENTIALITY_TO_CONNECT_N_LV": "גבוהה מאוד",
+              "POTENTIALITY_TO_CONNECT_D_MV": "נמוכה מאוד",
+              "POTENTIALITY_TO_CONNECT_N_MV": "גבוהה"
+            }
+          ],
+          "status": "mapped"
+        }
+      ],
+      "status": "mapped",
+      "ratings": {
+        "POTENTIALITY_TO_CONNECT_D_LV": [
+          "גבוהה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_LV": [
+          "גבוהה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_D_MV": [
+          "נמוכה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_MV": [
+          "גבוהה"
+        ]
+      },
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:611269",
+      "name": "אשכול גנים אבו תלול",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:615906",
+      "name": "אשכול גנים אלעזזמה",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:615997",
+      "name": "אשכול גנים ביר הדאג'",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:616011",
+      "name": "אש' גנים ביר אלמשאש",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:616029",
+      "name": "אש' גנ\"י אבו קרינאת",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:616052",
+      "name": "אש' גנ\"י אלמוסתקבל",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:616292",
+      "name": "אשכול אבו קרינאת ב'",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:616573",
+      "name": "אשכול גנים אבו סולב",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:616581",
+      "name": "אשכול גנים אלנג'אח",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:616615",
+      "name": "אשכול גנים אלאמל",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:622621",
+      "name": "אלמוסתקבל",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:622639",
+      "name": "ביר הדאג' אלאימאן",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:622654",
+      "name": "ביר הדאג' אלאימאן",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:622662",
+      "name": "אלמוסתקבל",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:630012",
+      "name": "אלסלאם",
+      "points": [
+        {
+          "x": 193453,
+          "y": 566640,
+          "basis": "נקודה בתוך גג ששויך במפת המקור",
+          "roof_id": "roof-630012-193453-566640",
+          "query_url": "https://services3.arcgis.com/IwBfWsA3Hiwd5dEw/arcgis/rest/services/LV_DAY/FeatureServer/3/query?f=json&geometry=193453%2C566640&geometryType=esriGeometryPoint&inSR=2039&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CPOTENTIALITY_TO_CONNECT_D_LV%2CPOTENTIALITY_TO_CONNECT_N_LV%2CPOTENTIALITY_TO_CONNECT_D_MV%2CPOTENTIALITY_TO_CONNECT_N_MV&returnGeometry=false",
+          "matches": [
+            {
+              "OBJECTID": 1536,
+              "POTENTIALITY_TO_CONNECT_D_LV": "גבוהה",
+              "POTENTIALITY_TO_CONNECT_N_LV": "גבוהה",
+              "POTENTIALITY_TO_CONNECT_D_MV": "נמוכה",
+              "POTENTIALITY_TO_CONNECT_N_MV": "נמוכה מאוד"
+            }
+          ],
+          "status": "mapped"
+        }
+      ],
+      "status": "mapped",
+      "ratings": {
+        "POTENTIALITY_TO_CONNECT_D_LV": [
+          "גבוהה"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_LV": [
+          "גבוהה"
+        ],
+        "POTENTIALITY_TO_CONNECT_D_MV": [
+          "נמוכה"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_MV": [
+          "נמוכה מאוד"
+        ]
+      },
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:630087",
+      "name": "ביר עסלוג'",
+      "points": [
+        {
+          "x": 170673,
+          "y": 548305,
+          "basis": "נקודה בתוך גג ששויך במפת המקור",
+          "roof_id": "roof-630087-170673-548305",
+          "query_url": "https://services3.arcgis.com/IwBfWsA3Hiwd5dEw/arcgis/rest/services/LV_DAY/FeatureServer/3/query?f=json&geometry=170673%2C548305&geometryType=esriGeometryPoint&inSR=2039&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CPOTENTIALITY_TO_CONNECT_D_LV%2CPOTENTIALITY_TO_CONNECT_N_LV%2CPOTENTIALITY_TO_CONNECT_D_MV%2CPOTENTIALITY_TO_CONNECT_N_MV&returnGeometry=false",
+          "matches": [
+            {
+              "OBJECTID": 1603,
+              "POTENTIALITY_TO_CONNECT_D_LV": "נמוכה מאוד",
+              "POTENTIALITY_TO_CONNECT_N_LV": "גבוהה מאוד",
+              "POTENTIALITY_TO_CONNECT_D_MV": "נמוכה מאוד",
+              "POTENTIALITY_TO_CONNECT_N_MV": "נמוכה מאוד"
+            }
+          ],
+          "status": "mapped"
+        }
+      ],
+      "status": "mapped",
+      "ratings": {
+        "POTENTIALITY_TO_CONNECT_D_LV": [
+          "נמוכה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_LV": [
+          "גבוהה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_D_MV": [
+          "נמוכה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_MV": [
+          "נמוכה מאוד"
+        ]
+      },
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:633438",
+      "name": "יסודי אבו סולב",
+      "points": [
+        {
+          "x": 195383,
+          "y": 565343,
+          "basis": "נקודת מוסד שנבדקה במפה; טרם התקבל נתון גג",
+          "query_url": "https://services3.arcgis.com/IwBfWsA3Hiwd5dEw/arcgis/rest/services/LV_DAY/FeatureServer/3/query?f=json&geometry=195383%2C565343&geometryType=esriGeometryPoint&inSR=2039&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CPOTENTIALITY_TO_CONNECT_D_LV%2CPOTENTIALITY_TO_CONNECT_N_LV%2CPOTENTIALITY_TO_CONNECT_D_MV%2CPOTENTIALITY_TO_CONNECT_N_MV&returnGeometry=false",
+          "matches": [
+            {
+              "OBJECTID": 1536,
+              "POTENTIALITY_TO_CONNECT_D_LV": "גבוהה",
+              "POTENTIALITY_TO_CONNECT_N_LV": "גבוהה",
+              "POTENTIALITY_TO_CONNECT_D_MV": "נמוכה",
+              "POTENTIALITY_TO_CONNECT_N_MV": "נמוכה מאוד"
+            }
+          ],
+          "status": "mapped"
+        }
+      ],
+      "status": "mapped",
+      "ratings": {
+        "POTENTIALITY_TO_CONNECT_D_LV": [
+          "גבוהה"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_LV": [
+          "גבוהה"
+        ],
+        "POTENTIALITY_TO_CONNECT_D_MV": [
+          "נמוכה"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_MV": [
+          "נמוכה מאוד"
+        ]
+      },
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:632786",
+      "name": "יסודי רכמה",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:631002",
+      "name": "מרכז פסג\"ה נווה במדבר",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:623231",
+      "name": "אלמג'ד",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:623371",
+      "name": "אלמג'ד",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:623801",
+      "name": "אלעזמה ב'",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:623819",
+      "name": "אלהואשלה דרום",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:623835",
+      "name": "אעסם ב'",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:623843",
+      "name": "נווה במדבר",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:623876",
+      "name": "אבו קרינאת א'",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:625228",
+      "name": "מתי\"א בסמ\"ה",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:625269",
+      "name": "אשכול אלהואשלה א'",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:625277",
+      "name": "אשכול גנים עזאזמה ב'",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:630277",
+      "name": "ביר הדאג מערב",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:630285",
+      "name": "ביר הדאג מערב",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:630301",
+      "name": "אלמג'ד",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:630517",
+      "name": "אלמוסתקבל",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:630525",
+      "name": "ביר הדאג'",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:634964",
+      "name": "אלמג'ד",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:648220",
+      "name": "תיכון אורט אבוקרינט",
+      "points": [
+        {
+          "x": 196055,
+          "y": 560313,
+          "basis": "נקודה בתוך גג ששויך במפת המקור",
+          "roof_id": "roof-648220-196055-560313",
+          "query_url": "https://services3.arcgis.com/IwBfWsA3Hiwd5dEw/arcgis/rest/services/LV_DAY/FeatureServer/3/query?f=json&geometry=196055%2C560313&geometryType=esriGeometryPoint&inSR=2039&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CPOTENTIALITY_TO_CONNECT_D_LV%2CPOTENTIALITY_TO_CONNECT_N_LV%2CPOTENTIALITY_TO_CONNECT_D_MV%2CPOTENTIALITY_TO_CONNECT_N_MV&returnGeometry=false",
+          "matches": [
+            {
+              "OBJECTID": 1635,
+              "POTENTIALITY_TO_CONNECT_D_LV": "גבוהה מאוד",
+              "POTENTIALITY_TO_CONNECT_N_LV": "גבוהה מאוד",
+              "POTENTIALITY_TO_CONNECT_D_MV": "נמוכה מאוד",
+              "POTENTIALITY_TO_CONNECT_N_MV": "גבוהה"
+            }
+          ],
+          "status": "mapped"
+        },
+        {
+          "x": 196096,
+          "y": 560302,
+          "basis": "נקודה בתוך גג ששויך במפת המקור",
+          "roof_id": "roof-648220-196096-560302",
+          "query_url": "https://services3.arcgis.com/IwBfWsA3Hiwd5dEw/arcgis/rest/services/LV_DAY/FeatureServer/3/query?f=json&geometry=196096%2C560302&geometryType=esriGeometryPoint&inSR=2039&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CPOTENTIALITY_TO_CONNECT_D_LV%2CPOTENTIALITY_TO_CONNECT_N_LV%2CPOTENTIALITY_TO_CONNECT_D_MV%2CPOTENTIALITY_TO_CONNECT_N_MV&returnGeometry=false",
+          "matches": [
+            {
+              "OBJECTID": 1635,
+              "POTENTIALITY_TO_CONNECT_D_LV": "גבוהה מאוד",
+              "POTENTIALITY_TO_CONNECT_N_LV": "גבוהה מאוד",
+              "POTENTIALITY_TO_CONNECT_D_MV": "נמוכה מאוד",
+              "POTENTIALITY_TO_CONNECT_N_MV": "גבוהה"
+            }
+          ],
+          "status": "mapped"
+        }
+      ],
+      "status": "mapped",
+      "ratings": {
+        "POTENTIALITY_TO_CONNECT_D_LV": [
+          "גבוהה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_LV": [
+          "גבוהה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_D_MV": [
+          "נמוכה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_MV": [
+          "גבוהה"
+        ]
+      },
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:648279",
+      "name": "תיכון אורט אלהואשלה",
+      "points": [
+        {
+          "x": 198380,
+          "y": 554338,
+          "basis": "נקודה בתוך גג ששויך במפת המקור",
+          "roof_id": "roof-648279-198380-554338",
+          "query_url": "https://services3.arcgis.com/IwBfWsA3Hiwd5dEw/arcgis/rest/services/LV_DAY/FeatureServer/3/query?f=json&geometry=198380%2C554338&geometryType=esriGeometryPoint&inSR=2039&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CPOTENTIALITY_TO_CONNECT_D_LV%2CPOTENTIALITY_TO_CONNECT_N_LV%2CPOTENTIALITY_TO_CONNECT_D_MV%2CPOTENTIALITY_TO_CONNECT_N_MV&returnGeometry=false",
+          "matches": [
+            {
+              "OBJECTID": 1635,
+              "POTENTIALITY_TO_CONNECT_D_LV": "גבוהה מאוד",
+              "POTENTIALITY_TO_CONNECT_N_LV": "גבוהה מאוד",
+              "POTENTIALITY_TO_CONNECT_D_MV": "נמוכה מאוד",
+              "POTENTIALITY_TO_CONNECT_N_MV": "גבוהה"
+            }
+          ],
+          "status": "mapped"
+        }
+      ],
+      "status": "mapped",
+      "ratings": {
+        "POTENTIALITY_TO_CONNECT_D_LV": [
+          "גבוהה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_LV": [
+          "גבוהה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_D_MV": [
+          "נמוכה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_MV": [
+          "גבוהה"
+        ]
+      },
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:648287",
+      "name": "אורט ביר הדאג' נווה מדבר",
+      "points": [
+        {
+          "x": 171315,
+          "y": 548087,
+          "basis": "נקודה בתוך גג ששויך במפת המקור",
+          "roof_id": "roof-648287-171315-548087",
+          "query_url": "https://services3.arcgis.com/IwBfWsA3Hiwd5dEw/arcgis/rest/services/LV_DAY/FeatureServer/3/query?f=json&geometry=171315%2C548087&geometryType=esriGeometryPoint&inSR=2039&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CPOTENTIALITY_TO_CONNECT_D_LV%2CPOTENTIALITY_TO_CONNECT_N_LV%2CPOTENTIALITY_TO_CONNECT_D_MV%2CPOTENTIALITY_TO_CONNECT_N_MV&returnGeometry=false",
+          "matches": [
+            {
+              "OBJECTID": 1603,
+              "POTENTIALITY_TO_CONNECT_D_LV": "נמוכה מאוד",
+              "POTENTIALITY_TO_CONNECT_N_LV": "גבוהה מאוד",
+              "POTENTIALITY_TO_CONNECT_D_MV": "נמוכה מאוד",
+              "POTENTIALITY_TO_CONNECT_N_MV": "נמוכה מאוד"
+            }
+          ],
+          "status": "mapped"
+        }
+      ],
+      "status": "mapped",
+      "ratings": {
+        "POTENTIALITY_TO_CONNECT_D_LV": [
+          "נמוכה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_LV": [
+          "גבוהה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_D_MV": [
+          "נמוכה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_MV": [
+          "נמוכה מאוד"
+        ]
+      },
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:643577",
+      "name": "אורט אלהאלל נווה מדבר",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:645523",
+      "name": "נווה מדבר",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:645531",
+      "name": "נווה מדבר",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:659417",
+      "name": "חאשם זאנה",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:660233",
+      "name": "תיכון אורט אבו תלול",
+      "points": [
+        {
+          "x": 193589,
+          "y": 566514,
+          "basis": "נקודה בתוך גג ששויך במפת המקור",
+          "roof_id": "observed-abu-tlul-193589-566514",
+          "query_url": "https://services3.arcgis.com/IwBfWsA3Hiwd5dEw/arcgis/rest/services/LV_DAY/FeatureServer/3/query?f=json&geometry=193589%2C566514&geometryType=esriGeometryPoint&inSR=2039&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CPOTENTIALITY_TO_CONNECT_D_LV%2CPOTENTIALITY_TO_CONNECT_N_LV%2CPOTENTIALITY_TO_CONNECT_D_MV%2CPOTENTIALITY_TO_CONNECT_N_MV&returnGeometry=false",
+          "matches": [
+            {
+              "OBJECTID": 1536,
+              "POTENTIALITY_TO_CONNECT_D_LV": "גבוהה",
+              "POTENTIALITY_TO_CONNECT_N_LV": "גבוהה",
+              "POTENTIALITY_TO_CONNECT_D_MV": "נמוכה",
+              "POTENTIALITY_TO_CONNECT_N_MV": "נמוכה מאוד"
+            }
+          ],
+          "status": "mapped"
+        }
+      ],
+      "status": "mapped",
+      "ratings": {
+        "POTENTIALITY_TO_CONNECT_D_LV": [
+          "גבוהה"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_LV": [
+          "גבוהה"
+        ],
+        "POTENTIALITY_TO_CONNECT_D_MV": [
+          "נמוכה"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_MV": [
+          "נמוכה מאוד"
+        ]
+      },
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:656413",
+      "name": "אבו עשיבה",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:656421",
+      "name": "אלמג'ד",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:657775",
+      "name": "ביר אלמשאש",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:657783",
+      "name": "ביר אלמשאש",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:657791",
+      "name": "אבו קוידר",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:657809",
+      "name": "אבו קוידר",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:658021",
+      "name": "ביר הדרג' מערב",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:658039",
+      "name": "עובדת",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:670471",
+      "name": "אלהלאל",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:670521",
+      "name": "אלהלאל",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:670539",
+      "name": "אבו עשיבה",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:671412",
+      "name": "חאשם זאנה",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:671420",
+      "name": "חאשם זאנה",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:672907",
+      "name": "ח'אשם זאנה",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:672915",
+      "name": "ח'אשם זאנה",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:673376",
+      "name": "אלהלאל",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:673442",
+      "name": "אלהואשלה מערב",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:682633",
+      "name": "אלביאן קסר אסר",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:761643",
+      "name": "אורט אבו קוידר נווה מדבר",
+      "points": [
+        {
+          "x": 192560,
+          "y": 568092,
+          "basis": "נקודת מוסד שנבדקה במפה; טרם התקבל נתון גג",
+          "query_url": "https://services3.arcgis.com/IwBfWsA3Hiwd5dEw/arcgis/rest/services/LV_DAY/FeatureServer/3/query?f=json&geometry=192560%2C568092&geometryType=esriGeometryPoint&inSR=2039&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CPOTENTIALITY_TO_CONNECT_D_LV%2CPOTENTIALITY_TO_CONNECT_N_LV%2CPOTENTIALITY_TO_CONNECT_D_MV%2CPOTENTIALITY_TO_CONNECT_N_MV&returnGeometry=false",
+          "matches": [
+            {
+              "OBJECTID": 1536,
+              "POTENTIALITY_TO_CONNECT_D_LV": "גבוהה",
+              "POTENTIALITY_TO_CONNECT_N_LV": "גבוהה",
+              "POTENTIALITY_TO_CONNECT_D_MV": "נמוכה",
+              "POTENTIALITY_TO_CONNECT_N_MV": "נמוכה מאוד"
+            }
+          ],
+          "status": "mapped"
+        }
+      ],
+      "status": "mapped",
+      "ratings": {
+        "POTENTIALITY_TO_CONNECT_D_LV": [
+          "גבוהה"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_LV": [
+          "גבוהה"
+        ],
+        "POTENTIALITY_TO_CONNECT_D_MV": [
+          "נמוכה"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_MV": [
+          "נמוכה מאוד"
+        ]
+      },
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:765966",
+      "name": "אורט מחט קסאר אסר",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:779702",
+      "name": "אבו סולב",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:785303",
+      "name": "תיכון ואדי אל נעים",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:784546",
+      "name": "עזזמה ג",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:786442",
+      "name": "אבו קרינאת מערב",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:786764",
+      "name": "אבו קרינאת ב'",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:787119",
+      "name": "אבו עשיבה",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:787127",
+      "name": "רחמה",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:792937",
+      "name": "אלמחבה",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:792945",
+      "name": "אלנוג'ות",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:792952",
+      "name": "אלראחין",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:810184",
+      "name": "אלאימאן ב טרום",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:810192",
+      "name": "אלאימאן ב' חובה",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:810218",
+      "name": "אלמג'ד",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:810226",
+      "name": "עזאזמה ג'",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:810234",
+      "name": "ביר הדאג' מערב",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:810291",
+      "name": "אבו קרינאת ב'",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:810309",
+      "name": "אבו קרינאת ב'",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "edu:901462",
+      "name": "עזזמה א'",
+      "points": [],
+      "status": "missing_precise_location",
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "sport:861R1105807",
+      "name": "מגרש קטרגל מאספלט 18X30",
+      "points": [
+        {
+          "x": 192628.0,
+          "y": 567959.0,
+          "basis": "נקודת מתקן ספורט מדווחת משנת 2021; טרם אומתה במדידה",
+          "query_url": "https://services3.arcgis.com/IwBfWsA3Hiwd5dEw/arcgis/rest/services/LV_DAY/FeatureServer/3/query?f=json&geometry=192628.0%2C567959.0&geometryType=esriGeometryPoint&inSR=2039&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CPOTENTIALITY_TO_CONNECT_D_LV%2CPOTENTIALITY_TO_CONNECT_N_LV%2CPOTENTIALITY_TO_CONNECT_D_MV%2CPOTENTIALITY_TO_CONNECT_N_MV&returnGeometry=false",
+          "matches": [
+            {
+              "OBJECTID": 1536,
+              "POTENTIALITY_TO_CONNECT_D_LV": "גבוהה",
+              "POTENTIALITY_TO_CONNECT_N_LV": "גבוהה",
+              "POTENTIALITY_TO_CONNECT_D_MV": "נמוכה",
+              "POTENTIALITY_TO_CONNECT_N_MV": "נמוכה מאוד"
+            }
+          ],
+          "status": "mapped"
+        }
+      ],
+      "status": "mapped",
+      "ratings": {
+        "POTENTIALITY_TO_CONNECT_D_LV": [
+          "גבוהה"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_LV": [
+          "גבוהה"
+        ],
+        "POTENTIALITY_TO_CONNECT_D_MV": [
+          "נמוכה"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_MV": [
+          "נמוכה מאוד"
+        ]
+      },
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "sport:861F1103465",
+      "name": "מגרש",
+      "points": [
+        {
+          "x": 198657.0,
+          "y": 555297.0,
+          "basis": "נקודת מתקן ספורט מדווחת משנת 2021; טרם אומתה במדידה",
+          "query_url": "https://services3.arcgis.com/IwBfWsA3Hiwd5dEw/arcgis/rest/services/LV_DAY/FeatureServer/3/query?f=json&geometry=198657.0%2C555297.0&geometryType=esriGeometryPoint&inSR=2039&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CPOTENTIALITY_TO_CONNECT_D_LV%2CPOTENTIALITY_TO_CONNECT_N_LV%2CPOTENTIALITY_TO_CONNECT_D_MV%2CPOTENTIALITY_TO_CONNECT_N_MV&returnGeometry=false",
+          "matches": [
+            {
+              "OBJECTID": 1635,
+              "POTENTIALITY_TO_CONNECT_D_LV": "גבוהה מאוד",
+              "POTENTIALITY_TO_CONNECT_N_LV": "גבוהה מאוד",
+              "POTENTIALITY_TO_CONNECT_D_MV": "נמוכה מאוד",
+              "POTENTIALITY_TO_CONNECT_N_MV": "גבוהה"
+            }
+          ],
+          "status": "mapped"
+        }
+      ],
+      "status": "mapped",
+      "ratings": {
+        "POTENTIALITY_TO_CONNECT_D_LV": [
+          "גבוהה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_LV": [
+          "גבוהה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_D_MV": [
+          "נמוכה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_MV": [
+          "גבוהה"
+        ]
+      },
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "sport:861A2102712",
+      "name": "הואשלה",
+      "points": [
+        {
+          "x": 198406.0,
+          "y": 554316.0,
+          "basis": "נקודת מתקן ספורט מדווחת משנת 2021; טרם אומתה במדידה",
+          "query_url": "https://services3.arcgis.com/IwBfWsA3Hiwd5dEw/arcgis/rest/services/LV_DAY/FeatureServer/3/query?f=json&geometry=198406.0%2C554316.0&geometryType=esriGeometryPoint&inSR=2039&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CPOTENTIALITY_TO_CONNECT_D_LV%2CPOTENTIALITY_TO_CONNECT_N_LV%2CPOTENTIALITY_TO_CONNECT_D_MV%2CPOTENTIALITY_TO_CONNECT_N_MV&returnGeometry=false",
+          "matches": [
+            {
+              "OBJECTID": 1635,
+              "POTENTIALITY_TO_CONNECT_D_LV": "גבוהה מאוד",
+              "POTENTIALITY_TO_CONNECT_N_LV": "גבוהה מאוד",
+              "POTENTIALITY_TO_CONNECT_D_MV": "נמוכה מאוד",
+              "POTENTIALITY_TO_CONNECT_N_MV": "גבוהה"
+            }
+          ],
+          "status": "mapped"
+        }
+      ],
+      "status": "mapped",
+      "ratings": {
+        "POTENTIALITY_TO_CONNECT_D_LV": [
+          "גבוהה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_LV": [
+          "גבוהה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_D_MV": [
+          "נמוכה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_MV": [
+          "גבוהה"
+        ]
+      },
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "sport:861G3308559",
+      "name": "אולם ספורט בינוני",
+      "points": [
+        {
+          "x": 193785.0,
+          "y": 566391.0,
+          "basis": "נקודת מתקן ספורט מדווחת משנת 2021; טרם אומתה במדידה",
+          "query_url": "https://services3.arcgis.com/IwBfWsA3Hiwd5dEw/arcgis/rest/services/LV_DAY/FeatureServer/3/query?f=json&geometry=193785.0%2C566391.0&geometryType=esriGeometryPoint&inSR=2039&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CPOTENTIALITY_TO_CONNECT_D_LV%2CPOTENTIALITY_TO_CONNECT_N_LV%2CPOTENTIALITY_TO_CONNECT_D_MV%2CPOTENTIALITY_TO_CONNECT_N_MV&returnGeometry=false",
+          "matches": [
+            {
+              "OBJECTID": 1536,
+              "POTENTIALITY_TO_CONNECT_D_LV": "גבוהה",
+              "POTENTIALITY_TO_CONNECT_N_LV": "גבוהה",
+              "POTENTIALITY_TO_CONNECT_D_MV": "נמוכה",
+              "POTENTIALITY_TO_CONNECT_N_MV": "נמוכה מאוד"
+            }
+          ],
+          "status": "mapped"
+        }
+      ],
+      "status": "mapped",
+      "ratings": {
+        "POTENTIALITY_TO_CONNECT_D_LV": [
+          "גבוהה"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_LV": [
+          "גבוהה"
+        ],
+        "POTENTIALITY_TO_CONNECT_D_MV": [
+          "נמוכה"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_MV": [
+          "נמוכה מאוד"
+        ]
+      },
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "sport:861R1105794",
+      "name": "מגרש קטרגל מאספלט 18X30",
+      "points": [
+        {
+          "x": 195220.0,
+          "y": 567471.0,
+          "basis": "נקודת מתקן ספורט מדווחת משנת 2021; טרם אומתה במדידה",
+          "query_url": "https://services3.arcgis.com/IwBfWsA3Hiwd5dEw/arcgis/rest/services/LV_DAY/FeatureServer/3/query?f=json&geometry=195220.0%2C567471.0&geometryType=esriGeometryPoint&inSR=2039&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CPOTENTIALITY_TO_CONNECT_D_LV%2CPOTENTIALITY_TO_CONNECT_N_LV%2CPOTENTIALITY_TO_CONNECT_D_MV%2CPOTENTIALITY_TO_CONNECT_N_MV&returnGeometry=false",
+          "matches": [
+            {
+              "OBJECTID": 1536,
+              "POTENTIALITY_TO_CONNECT_D_LV": "גבוהה",
+              "POTENTIALITY_TO_CONNECT_N_LV": "גבוהה",
+              "POTENTIALITY_TO_CONNECT_D_MV": "נמוכה",
+              "POTENTIALITY_TO_CONNECT_N_MV": "נמוכה מאוד"
+            }
+          ],
+          "status": "mapped"
+        }
+      ],
+      "status": "mapped",
+      "ratings": {
+        "POTENTIALITY_TO_CONNECT_D_LV": [
+          "גבוהה"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_LV": [
+          "גבוהה"
+        ],
+        "POTENTIALITY_TO_CONNECT_D_MV": [
+          "נמוכה"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_MV": [
+          "נמוכה מאוד"
+        ]
+      },
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "sport:861R1105796",
+      "name": "מגרש קטרגל מאספלט 18X30",
+      "points": [
+        {
+          "x": 182938.0,
+          "y": 563614.0,
+          "basis": "נקודת מתקן ספורט מדווחת משנת 2021; טרם אומתה במדידה",
+          "query_url": "https://services3.arcgis.com/IwBfWsA3Hiwd5dEw/arcgis/rest/services/LV_DAY/FeatureServer/3/query?f=json&geometry=182938.0%2C563614.0&geometryType=esriGeometryPoint&inSR=2039&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CPOTENTIALITY_TO_CONNECT_D_LV%2CPOTENTIALITY_TO_CONNECT_N_LV%2CPOTENTIALITY_TO_CONNECT_D_MV%2CPOTENTIALITY_TO_CONNECT_N_MV&returnGeometry=false",
+          "matches": [
+            {
+              "OBJECTID": 1581,
+              "POTENTIALITY_TO_CONNECT_D_LV": "גבוהה",
+              "POTENTIALITY_TO_CONNECT_N_LV": "גבוהה",
+              "POTENTIALITY_TO_CONNECT_D_MV": "נמוכה מאוד",
+              "POTENTIALITY_TO_CONNECT_N_MV": "נמוכה מאוד"
+            }
+          ],
+          "status": "mapped"
+        }
+      ],
+      "status": "mapped",
+      "ratings": {
+        "POTENTIALITY_TO_CONNECT_D_LV": [
+          "גבוהה"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_LV": [
+          "גבוהה"
+        ],
+        "POTENTIALITY_TO_CONNECT_D_MV": [
+          "נמוכה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_MV": [
+          "נמוכה מאוד"
+        ]
+      },
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "sport:861R1105806",
+      "name": "מגרש קטרגל מאספלט 18X30",
+      "points": [
+        {
+          "x": 171421.0,
+          "y": 548120.0,
+          "basis": "נקודת מתקן ספורט מדווחת משנת 2021; טרם אומתה במדידה",
+          "query_url": "https://services3.arcgis.com/IwBfWsA3Hiwd5dEw/arcgis/rest/services/LV_DAY/FeatureServer/3/query?f=json&geometry=171421.0%2C548120.0&geometryType=esriGeometryPoint&inSR=2039&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CPOTENTIALITY_TO_CONNECT_D_LV%2CPOTENTIALITY_TO_CONNECT_N_LV%2CPOTENTIALITY_TO_CONNECT_D_MV%2CPOTENTIALITY_TO_CONNECT_N_MV&returnGeometry=false",
+          "matches": [
+            {
+              "OBJECTID": 1603,
+              "POTENTIALITY_TO_CONNECT_D_LV": "נמוכה מאוד",
+              "POTENTIALITY_TO_CONNECT_N_LV": "גבוהה מאוד",
+              "POTENTIALITY_TO_CONNECT_D_MV": "נמוכה מאוד",
+              "POTENTIALITY_TO_CONNECT_N_MV": "נמוכה מאוד"
+            }
+          ],
+          "status": "mapped"
+        }
+      ],
+      "status": "mapped",
+      "ratings": {
+        "POTENTIALITY_TO_CONNECT_D_LV": [
+          "נמוכה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_LV": [
+          "גבוהה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_D_MV": [
+          "נמוכה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_MV": [
+          "נמוכה מאוד"
+        ]
+      },
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "sport:861R1105798",
+      "name": "מגרש קטרגל מאספלט 18X30",
+      "points": [
+        {
+          "x": 171550.0,
+          "y": 547909.0,
+          "basis": "נקודת מתקן ספורט מדווחת משנת 2021; טרם אומתה במדידה",
+          "query_url": "https://services3.arcgis.com/IwBfWsA3Hiwd5dEw/arcgis/rest/services/LV_DAY/FeatureServer/3/query?f=json&geometry=171550.0%2C547909.0&geometryType=esriGeometryPoint&inSR=2039&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CPOTENTIALITY_TO_CONNECT_D_LV%2CPOTENTIALITY_TO_CONNECT_N_LV%2CPOTENTIALITY_TO_CONNECT_D_MV%2CPOTENTIALITY_TO_CONNECT_N_MV&returnGeometry=false",
+          "matches": [
+            {
+              "OBJECTID": 1603,
+              "POTENTIALITY_TO_CONNECT_D_LV": "נמוכה מאוד",
+              "POTENTIALITY_TO_CONNECT_N_LV": "גבוהה מאוד",
+              "POTENTIALITY_TO_CONNECT_D_MV": "נמוכה מאוד",
+              "POTENTIALITY_TO_CONNECT_N_MV": "נמוכה מאוד"
+            }
+          ],
+          "status": "mapped"
+        }
+      ],
+      "status": "mapped",
+      "ratings": {
+        "POTENTIALITY_TO_CONNECT_D_LV": [
+          "נמוכה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_LV": [
+          "גבוהה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_D_MV": [
+          "נמוכה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_MV": [
+          "נמוכה מאוד"
+        ]
+      },
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "sport:861A2101845",
+      "name": "ביר הדאג'",
+      "points": [
+        {
+          "x": 171289.0,
+          "y": 548040.0,
+          "basis": "נקודת מתקן ספורט מדווחת משנת 2021; טרם אומתה במדידה",
+          "query_url": "https://services3.arcgis.com/IwBfWsA3Hiwd5dEw/arcgis/rest/services/LV_DAY/FeatureServer/3/query?f=json&geometry=171289.0%2C548040.0&geometryType=esriGeometryPoint&inSR=2039&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CPOTENTIALITY_TO_CONNECT_D_LV%2CPOTENTIALITY_TO_CONNECT_N_LV%2CPOTENTIALITY_TO_CONNECT_D_MV%2CPOTENTIALITY_TO_CONNECT_N_MV&returnGeometry=false",
+          "matches": [
+            {
+              "OBJECTID": 1603,
+              "POTENTIALITY_TO_CONNECT_D_LV": "נמוכה מאוד",
+              "POTENTIALITY_TO_CONNECT_N_LV": "גבוהה מאוד",
+              "POTENTIALITY_TO_CONNECT_D_MV": "נמוכה מאוד",
+              "POTENTIALITY_TO_CONNECT_N_MV": "נמוכה מאוד"
+            }
+          ],
+          "status": "mapped"
+        }
+      ],
+      "status": "mapped",
+      "ratings": {
+        "POTENTIALITY_TO_CONNECT_D_LV": [
+          "נמוכה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_LV": [
+          "גבוהה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_D_MV": [
+          "נמוכה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_MV": [
+          "נמוכה מאוד"
+        ]
+      },
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "sport:861B2101834",
+      "name": "ביר חיל",
+      "points": [
+        {
+          "x": 171954.0,
+          "y": 548179.0,
+          "basis": "נקודת מתקן ספורט מדווחת משנת 2021; טרם אומתה במדידה",
+          "query_url": "https://services3.arcgis.com/IwBfWsA3Hiwd5dEw/arcgis/rest/services/LV_DAY/FeatureServer/3/query?f=json&geometry=171954.0%2C548179.0&geometryType=esriGeometryPoint&inSR=2039&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CPOTENTIALITY_TO_CONNECT_D_LV%2CPOTENTIALITY_TO_CONNECT_N_LV%2CPOTENTIALITY_TO_CONNECT_D_MV%2CPOTENTIALITY_TO_CONNECT_N_MV&returnGeometry=false",
+          "matches": [
+            {
+              "OBJECTID": 1603,
+              "POTENTIALITY_TO_CONNECT_D_LV": "נמוכה מאוד",
+              "POTENTIALITY_TO_CONNECT_N_LV": "גבוהה מאוד",
+              "POTENTIALITY_TO_CONNECT_D_MV": "נמוכה מאוד",
+              "POTENTIALITY_TO_CONNECT_N_MV": "נמוכה מאוד"
+            }
+          ],
+          "status": "mapped"
+        }
+      ],
+      "status": "mapped",
+      "ratings": {
+        "POTENTIALITY_TO_CONNECT_D_LV": [
+          "נמוכה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_LV": [
+          "גבוהה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_D_MV": [
+          "נמוכה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_MV": [
+          "נמוכה מאוד"
+        ]
+      },
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "sport:861R1105805",
+      "name": "מגרש קטרגל מאספלט 18X30",
+      "points": [
+        {
+          "x": 198333.0,
+          "y": 554442.0,
+          "basis": "נקודת מתקן ספורט מדווחת משנת 2021; טרם אומתה במדידה",
+          "query_url": "https://services3.arcgis.com/IwBfWsA3Hiwd5dEw/arcgis/rest/services/LV_DAY/FeatureServer/3/query?f=json&geometry=198333.0%2C554442.0&geometryType=esriGeometryPoint&inSR=2039&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CPOTENTIALITY_TO_CONNECT_D_LV%2CPOTENTIALITY_TO_CONNECT_N_LV%2CPOTENTIALITY_TO_CONNECT_D_MV%2CPOTENTIALITY_TO_CONNECT_N_MV&returnGeometry=false",
+          "matches": [
+            {
+              "OBJECTID": 1635,
+              "POTENTIALITY_TO_CONNECT_D_LV": "גבוהה מאוד",
+              "POTENTIALITY_TO_CONNECT_N_LV": "גבוהה מאוד",
+              "POTENTIALITY_TO_CONNECT_D_MV": "נמוכה מאוד",
+              "POTENTIALITY_TO_CONNECT_N_MV": "גבוהה"
+            }
+          ],
+          "status": "mapped"
+        }
+      ],
+      "status": "mapped",
+      "ratings": {
+        "POTENTIALITY_TO_CONNECT_D_LV": [
+          "גבוהה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_LV": [
+          "גבוהה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_D_MV": [
+          "נמוכה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_MV": [
+          "גבוהה"
+        ]
+      },
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "sport:861R1105790",
+      "name": "מגרש קטרגל מאספלט 18X30",
+      "points": [
+        {
+          "x": 193223.0,
+          "y": 566544.0,
+          "basis": "נקודת מתקן ספורט מדווחת משנת 2021; טרם אומתה במדידה",
+          "query_url": "https://services3.arcgis.com/IwBfWsA3Hiwd5dEw/arcgis/rest/services/LV_DAY/FeatureServer/3/query?f=json&geometry=193223.0%2C566544.0&geometryType=esriGeometryPoint&inSR=2039&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CPOTENTIALITY_TO_CONNECT_D_LV%2CPOTENTIALITY_TO_CONNECT_N_LV%2CPOTENTIALITY_TO_CONNECT_D_MV%2CPOTENTIALITY_TO_CONNECT_N_MV&returnGeometry=false",
+          "matches": [
+            {
+              "OBJECTID": 1536,
+              "POTENTIALITY_TO_CONNECT_D_LV": "גבוהה",
+              "POTENTIALITY_TO_CONNECT_N_LV": "גבוהה",
+              "POTENTIALITY_TO_CONNECT_D_MV": "נמוכה",
+              "POTENTIALITY_TO_CONNECT_N_MV": "נמוכה מאוד"
+            }
+          ],
+          "status": "mapped"
+        }
+      ],
+      "status": "mapped",
+      "ratings": {
+        "POTENTIALITY_TO_CONNECT_D_LV": [
+          "גבוהה"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_LV": [
+          "גבוהה"
+        ],
+        "POTENTIALITY_TO_CONNECT_D_MV": [
+          "נמוכה"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_MV": [
+          "נמוכה מאוד"
+        ]
+      },
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "sport:861R1105788",
+      "name": "מגרש קטרגל מאספלט 18X30",
+      "points": [
+        {
+          "x": 196018.0,
+          "y": 560347.0,
+          "basis": "נקודת מתקן ספורט מדווחת משנת 2021; טרם אומתה במדידה",
+          "query_url": "https://services3.arcgis.com/IwBfWsA3Hiwd5dEw/arcgis/rest/services/LV_DAY/FeatureServer/3/query?f=json&geometry=196018.0%2C560347.0&geometryType=esriGeometryPoint&inSR=2039&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CPOTENTIALITY_TO_CONNECT_D_LV%2CPOTENTIALITY_TO_CONNECT_N_LV%2CPOTENTIALITY_TO_CONNECT_D_MV%2CPOTENTIALITY_TO_CONNECT_N_MV&returnGeometry=false",
+          "matches": [
+            {
+              "OBJECTID": 1635,
+              "POTENTIALITY_TO_CONNECT_D_LV": "גבוהה מאוד",
+              "POTENTIALITY_TO_CONNECT_N_LV": "גבוהה מאוד",
+              "POTENTIALITY_TO_CONNECT_D_MV": "נמוכה מאוד",
+              "POTENTIALITY_TO_CONNECT_N_MV": "גבוהה"
+            }
+          ],
+          "status": "mapped"
+        }
+      ],
+      "status": "mapped",
+      "ratings": {
+        "POTENTIALITY_TO_CONNECT_D_LV": [
+          "גבוהה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_LV": [
+          "גבוהה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_D_MV": [
+          "נמוכה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_MV": [
+          "גבוהה"
+        ]
+      },
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "sport:861R1105801",
+      "name": "מגרש קטרגל מאספלט 18X30",
+      "points": [
+        {
+          "x": 198729.0,
+          "y": 555238.0,
+          "basis": "נקודת מתקן ספורט מדווחת משנת 2021; טרם אומתה במדידה",
+          "query_url": "https://services3.arcgis.com/IwBfWsA3Hiwd5dEw/arcgis/rest/services/LV_DAY/FeatureServer/3/query?f=json&geometry=198729.0%2C555238.0&geometryType=esriGeometryPoint&inSR=2039&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CPOTENTIALITY_TO_CONNECT_D_LV%2CPOTENTIALITY_TO_CONNECT_N_LV%2CPOTENTIALITY_TO_CONNECT_D_MV%2CPOTENTIALITY_TO_CONNECT_N_MV&returnGeometry=false",
+          "matches": [
+            {
+              "OBJECTID": 1635,
+              "POTENTIALITY_TO_CONNECT_D_LV": "גבוהה מאוד",
+              "POTENTIALITY_TO_CONNECT_N_LV": "גבוהה מאוד",
+              "POTENTIALITY_TO_CONNECT_D_MV": "נמוכה מאוד",
+              "POTENTIALITY_TO_CONNECT_N_MV": "גבוהה"
+            }
+          ],
+          "status": "mapped"
+        }
+      ],
+      "status": "mapped",
+      "ratings": {
+        "POTENTIALITY_TO_CONNECT_D_LV": [
+          "גבוהה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_LV": [
+          "גבוהה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_D_MV": [
+          "נמוכה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_MV": [
+          "גבוהה"
+        ]
+      },
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "sport:861R1105803",
+      "name": "מגרש קטרגל מאספלט 18X30",
+      "points": [
+        {
+          "x": 186296.0,
+          "y": 562838.0,
+          "basis": "נקודת מתקן ספורט מדווחת משנת 2021; טרם אומתה במדידה",
+          "query_url": "https://services3.arcgis.com/IwBfWsA3Hiwd5dEw/arcgis/rest/services/LV_DAY/FeatureServer/3/query?f=json&geometry=186296.0%2C562838.0&geometryType=esriGeometryPoint&inSR=2039&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CPOTENTIALITY_TO_CONNECT_D_LV%2CPOTENTIALITY_TO_CONNECT_N_LV%2CPOTENTIALITY_TO_CONNECT_D_MV%2CPOTENTIALITY_TO_CONNECT_N_MV&returnGeometry=false",
+          "matches": [
+            {
+              "OBJECTID": 1581,
+              "POTENTIALITY_TO_CONNECT_D_LV": "גבוהה",
+              "POTENTIALITY_TO_CONNECT_N_LV": "גבוהה",
+              "POTENTIALITY_TO_CONNECT_D_MV": "נמוכה מאוד",
+              "POTENTIALITY_TO_CONNECT_N_MV": "נמוכה מאוד"
+            }
+          ],
+          "status": "mapped"
+        }
+      ],
+      "status": "mapped",
+      "ratings": {
+        "POTENTIALITY_TO_CONNECT_D_LV": [
+          "גבוהה"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_LV": [
+          "גבוהה"
+        ],
+        "POTENTIALITY_TO_CONNECT_D_MV": [
+          "נמוכה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_MV": [
+          "נמוכה מאוד"
+        ]
+      },
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "sport:861R1105786",
+      "name": "מגרש קטרגל מאספלט 18X30",
+      "points": [
+        {
+          "x": 196505.0,
+          "y": 559143.0,
+          "basis": "נקודת מתקן ספורט מדווחת משנת 2021; טרם אומתה במדידה",
+          "query_url": "https://services3.arcgis.com/IwBfWsA3Hiwd5dEw/arcgis/rest/services/LV_DAY/FeatureServer/3/query?f=json&geometry=196505.0%2C559143.0&geometryType=esriGeometryPoint&inSR=2039&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CPOTENTIALITY_TO_CONNECT_D_LV%2CPOTENTIALITY_TO_CONNECT_N_LV%2CPOTENTIALITY_TO_CONNECT_D_MV%2CPOTENTIALITY_TO_CONNECT_N_MV&returnGeometry=false",
+          "matches": [
+            {
+              "OBJECTID": 1635,
+              "POTENTIALITY_TO_CONNECT_D_LV": "גבוהה מאוד",
+              "POTENTIALITY_TO_CONNECT_N_LV": "גבוהה מאוד",
+              "POTENTIALITY_TO_CONNECT_D_MV": "נמוכה מאוד",
+              "POTENTIALITY_TO_CONNECT_N_MV": "גבוהה"
+            }
+          ],
+          "status": "mapped"
+        }
+      ],
+      "status": "mapped",
+      "ratings": {
+        "POTENTIALITY_TO_CONNECT_D_LV": [
+          "גבוהה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_LV": [
+          "גבוהה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_D_MV": [
+          "נמוכה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_MV": [
+          "גבוהה"
+        ]
+      },
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "sport:861R1105793",
+      "name": "מגרש קטרגל מאספלט 18X30",
+      "points": [
+        {
+          "x": 183016.0,
+          "y": 563739.0,
+          "basis": "נקודת מתקן ספורט מדווחת משנת 2021; טרם אומתה במדידה",
+          "query_url": "https://services3.arcgis.com/IwBfWsA3Hiwd5dEw/arcgis/rest/services/LV_DAY/FeatureServer/3/query?f=json&geometry=183016.0%2C563739.0&geometryType=esriGeometryPoint&inSR=2039&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CPOTENTIALITY_TO_CONNECT_D_LV%2CPOTENTIALITY_TO_CONNECT_N_LV%2CPOTENTIALITY_TO_CONNECT_D_MV%2CPOTENTIALITY_TO_CONNECT_N_MV&returnGeometry=false",
+          "matches": [
+            {
+              "OBJECTID": 1581,
+              "POTENTIALITY_TO_CONNECT_D_LV": "גבוהה",
+              "POTENTIALITY_TO_CONNECT_N_LV": "גבוהה",
+              "POTENTIALITY_TO_CONNECT_D_MV": "נמוכה מאוד",
+              "POTENTIALITY_TO_CONNECT_N_MV": "נמוכה מאוד"
+            }
+          ],
+          "status": "mapped"
+        }
+      ],
+      "status": "mapped",
+      "ratings": {
+        "POTENTIALITY_TO_CONNECT_D_LV": [
+          "גבוהה"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_LV": [
+          "גבוהה"
+        ],
+        "POTENTIALITY_TO_CONNECT_D_MV": [
+          "נמוכה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_MV": [
+          "נמוכה מאוד"
+        ]
+      },
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "sport:861R1105802",
+      "name": "מגרש קטרגל מאספלט 18X30",
+      "points": [
+        {
+          "x": 193644.0,
+          "y": 566377.0,
+          "basis": "נקודת מתקן ספורט מדווחת משנת 2021; טרם אומתה במדידה",
+          "query_url": "https://services3.arcgis.com/IwBfWsA3Hiwd5dEw/arcgis/rest/services/LV_DAY/FeatureServer/3/query?f=json&geometry=193644.0%2C566377.0&geometryType=esriGeometryPoint&inSR=2039&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CPOTENTIALITY_TO_CONNECT_D_LV%2CPOTENTIALITY_TO_CONNECT_N_LV%2CPOTENTIALITY_TO_CONNECT_D_MV%2CPOTENTIALITY_TO_CONNECT_N_MV&returnGeometry=false",
+          "matches": [
+            {
+              "OBJECTID": 1536,
+              "POTENTIALITY_TO_CONNECT_D_LV": "גבוהה",
+              "POTENTIALITY_TO_CONNECT_N_LV": "גבוהה",
+              "POTENTIALITY_TO_CONNECT_D_MV": "נמוכה",
+              "POTENTIALITY_TO_CONNECT_N_MV": "נמוכה מאוד"
+            }
+          ],
+          "status": "mapped"
+        }
+      ],
+      "status": "mapped",
+      "ratings": {
+        "POTENTIALITY_TO_CONNECT_D_LV": [
+          "גבוהה"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_LV": [
+          "גבוהה"
+        ],
+        "POTENTIALITY_TO_CONNECT_D_MV": [
+          "נמוכה"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_MV": [
+          "נמוכה מאוד"
+        ]
+      },
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "sport:861R1105800",
+      "name": "מגרש קטרגל מאספלט 18X30",
+      "points": [
+        {
+          "x": 171155.0,
+          "y": 546379.0,
+          "basis": "נקודת מתקן ספורט מדווחת משנת 2021; טרם אומתה במדידה",
+          "query_url": "https://services3.arcgis.com/IwBfWsA3Hiwd5dEw/arcgis/rest/services/LV_DAY/FeatureServer/3/query?f=json&geometry=171155.0%2C546379.0&geometryType=esriGeometryPoint&inSR=2039&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CPOTENTIALITY_TO_CONNECT_D_LV%2CPOTENTIALITY_TO_CONNECT_N_LV%2CPOTENTIALITY_TO_CONNECT_D_MV%2CPOTENTIALITY_TO_CONNECT_N_MV&returnGeometry=false",
+          "matches": [
+            {
+              "OBJECTID": 1603,
+              "POTENTIALITY_TO_CONNECT_D_LV": "נמוכה מאוד",
+              "POTENTIALITY_TO_CONNECT_N_LV": "גבוהה מאוד",
+              "POTENTIALITY_TO_CONNECT_D_MV": "נמוכה מאוד",
+              "POTENTIALITY_TO_CONNECT_N_MV": "נמוכה מאוד"
+            }
+          ],
+          "status": "mapped"
+        }
+      ],
+      "status": "mapped",
+      "ratings": {
+        "POTENTIALITY_TO_CONNECT_D_LV": [
+          "נמוכה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_LV": [
+          "גבוהה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_D_MV": [
+          "נמוכה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_MV": [
+          "נמוכה מאוד"
+        ]
+      },
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "sport:861R1105791",
+      "name": "מגרש קטרגל מאספלט 18X30",
+      "points": [
+        {
+          "x": 196137.0,
+          "y": 560372.0,
+          "basis": "נקודת מתקן ספורט מדווחת משנת 2021; טרם אומתה במדידה",
+          "query_url": "https://services3.arcgis.com/IwBfWsA3Hiwd5dEw/arcgis/rest/services/LV_DAY/FeatureServer/3/query?f=json&geometry=196137.0%2C560372.0&geometryType=esriGeometryPoint&inSR=2039&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CPOTENTIALITY_TO_CONNECT_D_LV%2CPOTENTIALITY_TO_CONNECT_N_LV%2CPOTENTIALITY_TO_CONNECT_D_MV%2CPOTENTIALITY_TO_CONNECT_N_MV&returnGeometry=false",
+          "matches": [
+            {
+              "OBJECTID": 1635,
+              "POTENTIALITY_TO_CONNECT_D_LV": "גבוהה מאוד",
+              "POTENTIALITY_TO_CONNECT_N_LV": "גבוהה מאוד",
+              "POTENTIALITY_TO_CONNECT_D_MV": "נמוכה מאוד",
+              "POTENTIALITY_TO_CONNECT_N_MV": "גבוהה"
+            }
+          ],
+          "status": "mapped"
+        }
+      ],
+      "status": "mapped",
+      "ratings": {
+        "POTENTIALITY_TO_CONNECT_D_LV": [
+          "גבוהה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_LV": [
+          "גבוהה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_D_MV": [
+          "נמוכה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_MV": [
+          "גבוהה"
+        ]
+      },
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "canopy:ort-abu-tlul-sports-court",
+      "name": "מגרש ספורט במתחם אורט אבו תלול",
+      "points": [
+        {
+          "x": 193532,
+          "y": 566549,
+          "basis": "נקודת קירוי שנבדקה במפת האנרגיה",
+          "query_url": "https://services3.arcgis.com/IwBfWsA3Hiwd5dEw/arcgis/rest/services/LV_DAY/FeatureServer/3/query?f=json&geometry=193532%2C566549&geometryType=esriGeometryPoint&inSR=2039&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CPOTENTIALITY_TO_CONNECT_D_LV%2CPOTENTIALITY_TO_CONNECT_N_LV%2CPOTENTIALITY_TO_CONNECT_D_MV%2CPOTENTIALITY_TO_CONNECT_N_MV&returnGeometry=false",
+          "matches": [
+            {
+              "OBJECTID": 1536,
+              "POTENTIALITY_TO_CONNECT_D_LV": "גבוהה",
+              "POTENTIALITY_TO_CONNECT_N_LV": "גבוהה",
+              "POTENTIALITY_TO_CONNECT_D_MV": "נמוכה",
+              "POTENTIALITY_TO_CONNECT_N_MV": "נמוכה מאוד"
+            }
+          ],
+          "status": "mapped"
+        }
+      ],
+      "status": "mapped",
+      "ratings": {
+        "POTENTIALITY_TO_CONNECT_D_LV": [
+          "גבוהה"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_LV": [
+          "גבוהה"
+        ],
+        "POTENTIALITY_TO_CONNECT_D_MV": [
+          "נמוכה"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_MV": [
+          "נמוכה מאוד"
+        ]
+      },
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "canopy:alnajah-school-parking",
+      "name": "חניה במתחם בית ספר אלנג׳אח",
+      "points": [
+        {
+          "x": 198224,
+          "y": 555507,
+          "basis": "נקודת קירוי שנבדקה במפת האנרגיה",
+          "query_url": "https://services3.arcgis.com/IwBfWsA3Hiwd5dEw/arcgis/rest/services/LV_DAY/FeatureServer/3/query?f=json&geometry=198224%2C555507&geometryType=esriGeometryPoint&inSR=2039&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CPOTENTIALITY_TO_CONNECT_D_LV%2CPOTENTIALITY_TO_CONNECT_N_LV%2CPOTENTIALITY_TO_CONNECT_D_MV%2CPOTENTIALITY_TO_CONNECT_N_MV&returnGeometry=false",
+          "matches": [
+            {
+              "OBJECTID": 1635,
+              "POTENTIALITY_TO_CONNECT_D_LV": "גבוהה מאוד",
+              "POTENTIALITY_TO_CONNECT_N_LV": "גבוהה מאוד",
+              "POTENTIALITY_TO_CONNECT_D_MV": "נמוכה מאוד",
+              "POTENTIALITY_TO_CONNECT_N_MV": "גבוהה"
+            }
+          ],
+          "status": "mapped"
+        }
+      ],
+      "status": "mapped",
+      "ratings": {
+        "POTENTIALITY_TO_CONNECT_D_LV": [
+          "גבוהה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_LV": [
+          "גבוהה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_D_MV": [
+          "נמוכה מאוד"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_MV": [
+          "גבוהה"
+        ]
+      },
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "canopy:mustaqbal-court",
+      "name": "מגרש קטרגל במתחם אלמסתקבל",
+      "points": [
+        {
+          "x": 193212,
+          "y": 566543,
+          "basis": "נקודת קירוי שנבדקה במפת האנרגיה",
+          "query_url": "https://services3.arcgis.com/IwBfWsA3Hiwd5dEw/arcgis/rest/services/LV_DAY/FeatureServer/3/query?f=json&geometry=193212%2C566543&geometryType=esriGeometryPoint&inSR=2039&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CPOTENTIALITY_TO_CONNECT_D_LV%2CPOTENTIALITY_TO_CONNECT_N_LV%2CPOTENTIALITY_TO_CONNECT_D_MV%2CPOTENTIALITY_TO_CONNECT_N_MV&returnGeometry=false",
+          "matches": [
+            {
+              "OBJECTID": 1536,
+              "POTENTIALITY_TO_CONNECT_D_LV": "גבוהה",
+              "POTENTIALITY_TO_CONNECT_N_LV": "גבוהה",
+              "POTENTIALITY_TO_CONNECT_D_MV": "נמוכה",
+              "POTENTIALITY_TO_CONNECT_N_MV": "נמוכה מאוד"
+            }
+          ],
+          "status": "mapped"
+        }
+      ],
+      "status": "mapped",
+      "ratings": {
+        "POTENTIALITY_TO_CONNECT_D_LV": [
+          "גבוהה"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_LV": [
+          "גבוהה"
+        ],
+        "POTENTIALITY_TO_CONNECT_D_MV": [
+          "נמוכה"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_MV": [
+          "נמוכה מאוד"
+        ]
+      },
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "canopy:aatsam-b-court",
+      "name": "מגרש ספורט במתחם אל אעצם ב׳",
+      "points": [
+        {
+          "x": 193615,
+          "y": 566389,
+          "basis": "נקודת קירוי שנבדקה במפת האנרגיה",
+          "query_url": "https://services3.arcgis.com/IwBfWsA3Hiwd5dEw/arcgis/rest/services/LV_DAY/FeatureServer/3/query?f=json&geometry=193615%2C566389&geometryType=esriGeometryPoint&inSR=2039&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CPOTENTIALITY_TO_CONNECT_D_LV%2CPOTENTIALITY_TO_CONNECT_N_LV%2CPOTENTIALITY_TO_CONNECT_D_MV%2CPOTENTIALITY_TO_CONNECT_N_MV&returnGeometry=false",
+          "matches": [
+            {
+              "OBJECTID": 1536,
+              "POTENTIALITY_TO_CONNECT_D_LV": "גבוהה",
+              "POTENTIALITY_TO_CONNECT_N_LV": "גבוהה",
+              "POTENTIALITY_TO_CONNECT_D_MV": "נמוכה",
+              "POTENTIALITY_TO_CONNECT_N_MV": "נמוכה מאוד"
+            }
+          ],
+          "status": "mapped"
+        }
+      ],
+      "status": "mapped",
+      "ratings": {
+        "POTENTIALITY_TO_CONNECT_D_LV": [
+          "גבוהה"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_LV": [
+          "גבוהה"
+        ],
+        "POTENTIALITY_TO_CONNECT_D_MV": [
+          "נמוכה"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_MV": [
+          "נמוכה מאוד"
+        ]
+      },
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    },
+    {
+      "asset_id": "canopy:aatsam-b-parking",
+      "name": "שטח המסווג כחניה ליד אל אעצם ב׳",
+      "points": [
+        {
+          "x": 193666,
+          "y": 566354,
+          "basis": "נקודת קירוי שנבדקה במפת האנרגיה",
+          "query_url": "https://services3.arcgis.com/IwBfWsA3Hiwd5dEw/arcgis/rest/services/LV_DAY/FeatureServer/3/query?f=json&geometry=193666%2C566354&geometryType=esriGeometryPoint&inSR=2039&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CPOTENTIALITY_TO_CONNECT_D_LV%2CPOTENTIALITY_TO_CONNECT_N_LV%2CPOTENTIALITY_TO_CONNECT_D_MV%2CPOTENTIALITY_TO_CONNECT_N_MV&returnGeometry=false",
+          "matches": [
+            {
+              "OBJECTID": 1536,
+              "POTENTIALITY_TO_CONNECT_D_LV": "גבוהה",
+              "POTENTIALITY_TO_CONNECT_N_LV": "גבוהה",
+              "POTENTIALITY_TO_CONNECT_D_MV": "נמוכה",
+              "POTENTIALITY_TO_CONNECT_N_MV": "נמוכה מאוד"
+            }
+          ],
+          "status": "mapped"
+        }
+      ],
+      "status": "mapped",
+      "ratings": {
+        "POTENTIALITY_TO_CONNECT_D_LV": [
+          "גבוהה"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_LV": [
+          "גבוהה"
+        ],
+        "POTENTIALITY_TO_CONNECT_D_MV": [
+          "נמוכה"
+        ],
+        "POTENTIALITY_TO_CONNECT_N_MV": [
+          "נמוכה מאוד"
+        ]
+      },
+      "checked_at": "2026-11-14",
+      "map_updated_at": "2026-10-18",
+      "source_url": "https://experience.arcgis.com/experience/50e8bc89f74449298c103615c2899697"
+    }
+  ]
+}

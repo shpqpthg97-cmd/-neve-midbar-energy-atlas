@@ -1,0 +1,18 @@
+.dev.vars
+.env
+.env.*
+!.env.example
+
+.preview/
+node_modules/
+web/knowledge-models.bundle.js
+web/knowledge-models.css
+
+# Generated output and local secrets
+dist/
+.env.local
+*.pem
+*.key
+*.sqlite
+*.sqlite3
+*.db

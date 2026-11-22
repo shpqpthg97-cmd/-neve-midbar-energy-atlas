@@ -1,0 +1,15 @@
+import assert from 'node:assert/strict';import {createHash} from 'node:crypto';import {gzipSync} from 'node:zlib';import {createWorker} from '../worker/gate.mjs';import {localDatabase} from '../scripts/sqlite-preview.mjs';
+const realNow=Date.now;let now=realNow();Date.now=()=>now;
+const env={DB:localDatabase(),ATLAS_ACCESS_HASH:createHash('sha256').update('TESTTESTTESTTEST').digest('hex'),ATLAS_SESSION_KEY:'session-tests-only',ATLAS_INITIAL_GUEST_CODE:'0482'};
+const w=createWorker({'/index.html':{type:'text/html',body:gzipSync('<main>protected</main>').toString('base64')},'/app.js':{type:'text/javascript',body:gzipSync('/* protected */').toString('base64')}},'<!--ERROR--><!--CONTENT-->');let client=0;
+const post=(p,body={},cookie)=>new Request('https://atlas.test'+p,{method:'POST',headers:{origin:'https://atlas.test','content-type':'application/x-www-form-urlencoded','CF-Connecting-IP':String(++client),...(cookie?{cookie}:{})},body:new URLSearchParams(body)}),get=(p,cookie,method='GET')=>new Request('https://atlas.test'+p,{method,headers:cookie?{cookie}:{}});
+const initial={setup:'TESTTESTTESTTEST',email:'owner@example.test',password:'Long session test password!',confirm:'Long session test password!'};
+await w.fetch(post('/access/setup',initial),env);
+const signin=async()=>{const r=await w.fetch(post('/access/guest',{code:'0482'}),env);assert.equal(r.status,303);assert.ok(!r.headers.get('set-cookie').includes('Max-Age'));return r.headers.get('set-cookie').split(';')[0]};
+let cookie=await signin();assert.equal((await w.fetch(get('/',cookie,'HEAD'),env)).status,200);assert.match(await(await w.fetch(get('/',cookie),env)).text(),/protected/);assert.equal((await w.fetch(get('/app.js',cookie),env)).status,200);
+assert.match(await(await w.fetch(get('/',cookie),env)).text(),/ננעלה/);assert.equal((await w.fetch(get('/app.js',cookie),env)).status,401);
+cookie=await signin();now+=599000;assert.equal((await w.fetch(get('/api/auth/me',cookie),env)).status,200);now+=1000;assert.equal((await w.fetch(get('/api/auth/me',cookie),env)).status,401);assert.equal((await w.fetch(post('/api/auth/activity',{},cookie),env)).status,401);
+cookie=await signin();now+=500000;assert.equal((await w.fetch(post('/api/auth/activity',{},cookie),env)).status,200);now+=500000;assert.equal((await w.fetch(get('/app.js',cookie),env)).status,200);now+=100000;assert.equal((await w.fetch(get('/app.js',cookie),env)).status,401);
+cookie=await signin();await w.fetch(post('/access/logout',{},cookie),env);assert.equal((await w.fetch(get('/app.js',cookie),env)).status,401);
+cookie=await signin();await w.fetch(get('/?mode=login',cookie),env);assert.equal((await w.fetch(get('/app.js',cookie),env)).status,401);
+Date.now=realNow;console.log('Passed server-side 10-minute idle expiry, explicit activity renewal, one document per sign-in, HEAD, reload, return and logout revocation.');

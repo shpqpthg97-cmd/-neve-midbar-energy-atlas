@@ -1,0 +1,79 @@
+/* Presentation adapter for the existing modules. Their markup, handlers and data stay intact. */
+.ds-app :is(#schoolEnergyWorkspace,.se-dialog){--se-ink:var(--text);--se-line:var(--border);--se-muted:var(--text-muted);color:var(--text);font-family:var(--font);font-size:var(--text-base);line-height:1.6}
+.ds-app :is(p,li,dt,dd,td,th,label,summary){font-family:var(--font)!important;font-size:var(--text-base)!important;line-height:1.6!important}
+.ds-app :is(h1,h2,h3,h4){color:var(--text)!important;font-family:var(--font)!important;font-weight:700!important;line-height:1.25!important;letter-spacing:normal!important}
+.ds-app h2,.ds-app #schoolEnergyWorkspace h2,.ds-app .se-dialog h2{font-size:var(--text-2xl)}
+.ds-app h3,.ds-app #schoolEnergyWorkspace h3,.ds-app .se-dialog h3{font-size:var(--text-xl)}
+.ds-app h4,.ds-app #schoolEnergyWorkspace h4,.ds-app .se-dialog h4{font-size:var(--text-lg)}
+.ds-app :is(button,input,select,textarea),.ds-app #schoolEnergyWorkspace :is(button,input,select),.ds-app .se-dialog button{font-family:var(--font)!important;font-size:var(--text-base)!important;line-height:1.6!important;min-height:44px;border-radius:var(--radius-control);border-color:var(--control-border);background-color:var(--surface);color:var(--text)}
+.ds-app :is(input,select,textarea){background-color:var(--surface)!important;color:var(--text)!important;border-color:var(--control-border)!important}
+.ds-app :is(input[type=checkbox],input[type=radio]){min-height:20px!important;border-radius:4px}
+.ds-app :is(.primary,button.active,button[aria-pressed=true]),.ds-app #schoolEnergyWorkspace button[aria-pressed=true],.ds-app .se-dialog .primary{background:var(--primary);color:var(--on-primary);border-color:var(--primary)}
+.ds-app :is(.primary,button.active,button[aria-pressed=true]):hover{background:var(--primary-hover);color:var(--on-primary)}
+.ds-app :is(.card,.panel,.empty,.pm-kpi,.pm-task,.pm-risk-card,.pm-chart,.pm-feedback-home,.project-task,.se-panel,.se-kpi,.se-insights article,.se-decisions article,.credit-item,.credits-body,.se-dialog details){background:var(--surface);color:var(--text);border:1px solid var(--border);border-radius:var(--radius-card);box-shadow:var(--shadow)}
+.ds-app :is(.card,.panel,.pm-kpi,.pm-task,.pm-risk-card,.pm-chart,.pm-feedback-home,.project-task,.se-panel,.se-kpi,.se-insights article,.se-decisions article){padding:var(--space-6)}
+.ds-app :is(.se-hero,.pm-intro,.benefit-total){background:var(--surface)!important;color:var(--text)!important;border:1px solid var(--border);border-inline-start:3px solid var(--primary);border-radius:var(--radius-card);padding:var(--space-6)}
+.ds-app :is(.se-hero p,.se-hero .se-eyebrow,.se-hero-note span,.pm-intro p,.pm-intro .pm-small,.benefit-total small){color:var(--text-muted)!important}
+.ds-app .se-hero-note{background:var(--surface-2);border:1px solid var(--border);border-radius:var(--radius-control)}
+.ds-app :is(.energygrid div,.terms-check,.roadmap-grid article,.pm-feedback-body,.pm-start-bridge,.se-note,.se-scope,.se-concentration,.energy-data-status,.benefit-formula,.screening-results,#sportCanopyInfo){background:var(--surface-2);border-color:var(--border);color:var(--text);border-radius:var(--radius-control)}
+.ds-app :is(.connection-card,.bill-comparison,.site-next-action,.work-roadmap,.benefit-summary){background:var(--surface);border-color:var(--border);color:var(--text);border-radius:var(--radius-card);padding:var(--space-6)}
+.ds-app :is(.notice,.pm-next,.pm-pending,.se-alert,.grid-check){background:var(--warning-soft);color:var(--warning-text);border-color:var(--border);border-inline-start:3px solid var(--warning);border-radius:var(--radius-control)}
+.ds-app :is(.muted,.connection-limit,.pm-small,.pm-sync,.pm-milestone,.se-meta,.se-block,.eyebrow,.se-eyebrow,.copyright-sources,.source-note,.credits-note,.pm-history time){color:var(--text-muted)!important;font-size:var(--text-sm)!important}
+.ds-app :is(.card strong,.pm-kpi strong,.se-kpi>strong,.benefit-card strong){color:var(--text);font-size:var(--text-2xl);letter-spacing:normal;font-weight:700}
+.ds-app :is(.se-kpi>span,.se-kpi p,.se-insights p,.se-section-head p,.se-bar-item p,.se-decisions p){color:var(--text-muted)}
+.ds-app .se-concentration>strong{color:var(--primary);font-size:var(--text-3xl)}
+.ds-app :is(.benefit-card,.se-quality-grid .se-kpi){background:var(--surface);border-color:var(--border)}
+.ds-app :is(.benefit-card small,.se-kpi small){font-size:var(--text-sm);color:var(--text-muted)}
+.ds-app :is(.pill,.pm-status-pill,.se-pill){font-size:var(--text-sm);padding:var(--space-1) var(--space-2);border-radius:var(--radius-control);background:var(--surface-2);color:var(--text-muted);border:1px solid var(--border)}
+.ds-app :is(.low,.pm-status-pill.not_checked,.se-warn){background:var(--warning-soft);color:var(--warning-text)}
+.ds-app :is(.pm-status-pill.blocked,.pm-status-pill.blocking){background:var(--danger-soft);color:var(--danger)}
+.ds-app :is(.pm-status-pill.done,.pm-status-pill.resolved){background:var(--success-soft);color:var(--success-text)}
+.ds-app :is(.pm-error,.ds-field-error){color:var(--danger)!important}.ds-app .pm-status{color:var(--text);font-size:var(--text-base)}.ds-app .se-warning-text{color:var(--warning-text)}
+.ds-app :is(.pm-bar-track,.se-bar){background:var(--surface-2)}.ds-app :is(.pm-bar-track i,.se-bar i){background:var(--primary)}.ds-app .se-bar-blue i{background:var(--success)}
+.ds-app progress{accent-color:var(--primary)}
+.ds-app .se-insights article{border-top:1px solid var(--border);border-inline-start:3px solid var(--primary)}.ds-app .se-insights article:nth-child(2){border-inline-start-color:var(--success)}.ds-app .se-insights article:nth-child(3){border-inline-start-color:var(--energy)}
+.ds-app :is(.se-name,.pm-project-name),.ds-app #schoolEnergyWorkspace .se-name,.ds-app .se-dialog .se-name{color:var(--primary);background:transparent;border:0;border-radius:var(--radius-control);box-shadow:none;white-space:normal}
+.ds-app :is(.se-canopy b,.se-decisions b){color:var(--text)}
+.ds-app :is(.tablebox,.se-table-scroll table,.se-table-scroll thead th){background:var(--surface);color:var(--text)}
+.ds-app :is(.se-table-scroll th,.se-table-scroll td,th,td){border-bottom-color:var(--border);font-size:var(--text-base);padding:var(--space-4);background:transparent}
+.ds-app :is(th,.se-table-scroll thead th){background:var(--surface-2);color:var(--text-muted);font-weight:500}
+.ds-app :is(.se-table-scroll tbody tr:hover,tbody tr:hover){background:var(--surface-2)}
+.ds-app :is(.se-filters,.pm-form,.energy-toolbar,.tariff-controls,.assumption-grid){gap:var(--space-4)}
+.ds-app :is(.cards,.pm-kpis,.benefit-cards,.se-kpis){gap:var(--space-4);grid-template-columns:repeat(4,minmax(0,1fr))}
+.ds-app :is(.se-analysis-grid,.account-grid,.pm-row,.project-task-list,.pm-risk-grid){gap:var(--space-6)}
+.ds-app .se-toolbar p{font-size:var(--text-sm)!important}.ds-app :is(.section-line,.project-heading,.pm-header,.energy-toolbar){flex-wrap:wrap}
+.ds-app :is(.energy-toolbar,.pm-filter,.pm-actions,.tariff-controls){gap:var(--space-3)}
+.ds-app :is(dialog,#detail,.se-dialog){border-radius:var(--radius-modal);max-height:calc(100dvh - 32px);background:var(--surface);color:var(--text);border-color:var(--border)}
+.ds-app #layersDrawer{background:var(--surface);max-height:100dvh;border-radius:0}.ds-app #layersDrawer .drawer-head{background:var(--surface);color:var(--text);border-bottom:1px solid var(--border)}.ds-app #layersDrawer .filters{background:var(--surface)}
+.ds-app #map{background-color:var(--surface-2);background-image:none;border:1px solid var(--border);border-radius:var(--radius-card)}
+.ds-app .map-background-controls :is(label,select,[role=status]){font-size:var(--text-sm);color:var(--text-muted)}
+.ds-app .leaflet-popup-content-wrapper,.ds-app .leaflet-popup-tip,.ds-app .leaflet-tooltip{background:var(--surface);color:var(--text);font:400 var(--text-base)/1.6 var(--font);border-color:var(--border)}
+.ds-app .leaflet-control-zoom a{width:44px;height:44px;line-height:44px;background:var(--surface);color:var(--text);border-color:var(--control-border)}.ds-app .leaflet-control-attribution{background:var(--surface);color:var(--text-muted)}.ds-app .leaflet-control-attribution a{color:var(--primary)}
+.ds-app .source-credits,.ds-app .copyright-line{color:var(--text-muted);font-size:var(--text-sm)}.ds-app .source-credits summary,.ds-app .credit-item a{color:var(--primary)}.ds-app .credit-item{background:var(--surface)}.ds-app .credit-item p{font-size:var(--text-sm)!important}.ds-app .credits-note{border-color:var(--border)}
+.ds-app #solarModelsRoot{color:var(--text);font-family:var(--font)}
+.ds-app #solarModelsRoot :is([class*=bg-white],[class*=bg-slate],[class*=bg-emerald],[class*=bg-amber],[class*=bg-blue]){background:var(--surface)!important}
+.ds-app #solarModelsRoot :is([class*=text-slate],[class*=text-emerald],[class*=text-blue]){color:var(--text)!important}
+.ds-app #solarModelsRoot :is([class*=text-amber],[class*=text-orange]){color:var(--warning-text)!important}
+.ds-app #solarModelsRoot [class*=border-]{border-color:var(--border)!important}
+.ds-app #solarModelsRoot :is(.text-xs,.text-sm){font-size:var(--text-sm)!important}
+.ds-app #solarModelsRoot :is([class*=text-3xl],[class*=text-4xl]){font-size:var(--text-2xl)!important}
+.ds-app #solarModelsRoot article{border-radius:var(--radius-card);box-shadow:var(--shadow)}
+.ds-app #solarModelsRoot summary{min-height:44px}.ds-app #solarModelsRoot a{color:var(--primary)!important}
+.ds-app #solarModelsRoot [class*=bg-amber]{background:var(--warning-soft)!important}
+.ds-app #solarModelsRoot :is(.rounded-2xl,.rounded-3xl){border-radius:var(--radius-card)!important}
+.ds-app #solarModelsRoot .shadow-sm{box-shadow:var(--shadow)}
+.ds-app #solarModelsRoot [class*=bg-gradient]{background:var(--surface)!important;background-image:none!important;border:1px solid var(--border);border-inline-start:3px solid var(--primary);color:var(--text)!important}
+.ds-app #solarModelsRoot :is([class*=text-teal],[class*=text-indigo],[class*=text-sky],[class*=text-violet]){color:var(--primary)!important}
+.ds-app #solarModelsRoot :is([class*=bg-teal],[class*=bg-indigo],[class*=bg-sky],[class*=bg-violet]){background:var(--primary-soft)!important}
+.ds-app #solarModelsRoot .h-1\.5{background:var(--primary)!important;height:4px}
+.ds-app #solarModelsRoot [class*=text-white]{color:var(--text)!important}
+.ds-app #solarModelsRoot :is(.text-xs,.text-sm):is(p,li){font-size:var(--text-base)!important}
+.ds-app :is(.ds-access-fixed,.ds-password-toggle){font-size:var(--text-base)!important}
+.ds-app :is(.ds-nav-group summary,#nav [data-tab],.ds-favorite-dest,.ds-sidebar-tools button){font-size:var(--text-sm)!important}
+.ds-app .ds-nav-group summary{font-size:var(--text-xs)!important}
+.ds-app[data-text-large=true] :is(.se-hero,.se-dialog-top,.se-concentration){flex-wrap:wrap}.ds-app[data-text-large=true] :is(.pm-grid,.se-analysis-grid,.project-task-list,.account-grid,.se-decisions,.se-filters){grid-template-columns:1fr}
+@media(max-width:1024px){.ds-app :is(.cards,.pm-kpis,.benefit-cards,.se-kpis){grid-template-columns:repeat(2,minmax(0,1fr))}.ds-app :is(.pm-grid,.se-analysis-grid,.sync-source-grid){grid-template-columns:1fr}.ds-app .se-hero{flex-wrap:wrap}.ds-app .se-hero-note{flex-basis:100%}}
+@media(max-width:640px){.ds-app :is(.cards,.pm-kpis,.benefit-cards,.se-kpis,.pm-row,.account-grid,.project-task-list,.roadmap-grid,.se-quality-grid,.se-decisions,.credits-grid,.energygrid,.se-insights,.assumption-grid){grid-template-columns:1fr!important}.ds-app :is(.panel,.card,.se-panel,.pm-task,.se-kpi){padding:var(--space-4)}.ds-app :is(.se-hero,.se-concentration,.se-dialog-top){display:block}.ds-app .se-dialog-top button{margin-block-end:var(--space-4)}.ds-app .se-hero-note{margin-top:var(--space-4)}.ds-app .se-filters{grid-template-columns:1fr}.ds-app :is(dl,#syncWorkspace dl){grid-template-columns:1fr;gap:var(--space-2)}.ds-app dd{margin-bottom:var(--space-4)}.ds-app .se-bar-item>div:first-child{flex-wrap:wrap}.ds-app :is(button,input,select,textarea),.ds-app #schoolEnergyWorkspace :is(button,input,select),.ds-app .se-dialog button{min-height:48px}.ds-app .se-table-scroll table.ds-card-table{min-width:0!important}.ds-app .se-table-scroll tbody th{min-width:0}.ds-app .ds-mobile-nav button{font-size:var(--text-xs)!important}}
+
+.ds-app .ds-favorites h2{font-size:var(--text-xs);font-weight:500!important}.ds-app .ds-sidebar p{font-size:var(--text-sm)!important}.ds-app #layersMenu span{font-size:var(--text-sm);line-height:1.6}.ds-app #dsFavoritesTitle{margin:var(--space-3) var(--space-2)}
+@media(max-width:640px){.ds-app #layersMenu span{display:none}}

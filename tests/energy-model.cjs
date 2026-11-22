@@ -1,0 +1,13 @@
+const assert=require('node:assert/strict'),m=require('../web/energy-model.js');
+const a={realization:100,yield:1000,directShare:50,buy:.5,sell:.2,peak:1,batteryHours:2,dod:100,rte:80,cycles:100,powerRatio:1,chargeHours:4,dischargeHours:4,peakLoadYield:1000,pvCost:1000,batteryCost:100,powerCost:0,extraCost:0,pvOm:0,batteryOm:0,wear:0};
+let r=m.calculate(10,a);assert.equal(r.generation,10000);assert.equal(r.direct,5000);assert.equal(r.discharge,2000);assert.equal(r.charge,2500);assert.equal(r.exported,2500);assert.equal(r.net,5000);assert.equal(r.pvOnlyNet,3500);assert.equal(r.incremental,1500);assert.equal(r.capex,12000);assert.equal(r.payback,2.4);
+assert.equal(r.generation,r.direct+r.exported+r.discharge+r.losses);
+r=m.calculate(10,{...a,batteryHours:0});assert.equal(r.incremental,0);assert.equal(r.discharge,0);assert.equal(r.net,r.pvOnlyNet);
+r=m.calculate(10,{...a,directShare:100});assert.equal(r.discharge,0);assert.equal(r.exported,0);
+r=m.calculate(10,{...a,peakLoadYield:10});assert.equal(r.discharge,100);
+assert(m.calculate(10,{...a,rte:0}).missing);assert(m.calculate(10,{...a,buy:''}).missing);
+r=m.calculate(10,{...a,peak:.1});assert(r.incremental<0);assert.equal(r.batteryPayback,null);
+assert.equal(m.calculate(10,{...a,realization:0}).capex,0);
+const rs=[3,7].map(k=>m.calculate(k,a));assert.equal(rs.reduce((s,r)=>s+r.net,0),m.calculate(10,a).net);
+assert.equal(m.calculate(10,a,20000).generation,20000);
+console.log('Passed energy conservation, opportunity cost, load limits, missing inputs, zero-storage, negative-return and aggregation tests.');

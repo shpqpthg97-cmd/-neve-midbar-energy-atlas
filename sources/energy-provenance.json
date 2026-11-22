@@ -1,0 +1,15 @@
+{
+  "source_url": "https://www.govmap.gov.il/sites/energy/index.html?map=dashboard",
+  "retrieved_at": "2026-11-10",
+  "source_year": 2025,
+  "municipality_code": "5568",
+  "municipality": "נווה מדבר",
+  "level": "municipality aggregates, not individual buildings",
+  "warnings": [
+    "Main and secondary usage categories overlap; never sum them together.",
+    "MW and dunam values rounded at source; zero can reflect rounding.",
+    "Canopy general table labels 32.3 as square metres; detailed rows indicate dunams. Use detailed canopy rows with their explicit dunam units.",
+    "No building identifiers or geometries in these exports.",
+    "Reported public/municipal use is not verified council ownership."
+  ]
+}

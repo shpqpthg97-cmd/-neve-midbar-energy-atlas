@@ -1,0 +1,326 @@
+{
+  "roofs": [
+    {
+      "id": "observed-abu-tlul-193589-566514",
+      "name": "גג תיכון אורט אבו תלול",
+      "locality": "אבו תלול",
+      "x": 193589,
+      "y": 566514,
+      "lon": 34.93312419213818,
+      "lat": 31.189861423806537,
+      "roof_area_m2": 3676,
+      "existing_panels_m2": 943,
+      "solar_hours_kwh_per_kw_year": 1832,
+      "available_solar_m2": 1520,
+      "potential_kw": 217,
+      "annual_generation_kwh": 388430,
+      "ownership": "לא אומתה",
+      "use_class": "לא נמסר בכרטיס המקור",
+      "source_url": "https://www.govmap.gov.il/sites/energy/index.html?map=solar_panels",
+      "retrieved_at": "2026-11-10",
+      "source_year": 2025,
+      "location_method": "נקודה שנבחרה בתוך הגג במפת המקור; אינה פוליגון או מרכז גג מדוד",
+      "municipality_match": "בתוך גבול נווה מדבר משירות מינהל התכנון; הגבול טעון אימות עדכני",
+      "notes": "הערכים נשמרו כפי שמוצגים במקור. מכפלת ההספק בשעות השמש אינה תואמת בדיוק לייצור המדווח; נדרש בירור במקור.",
+      "education_id": "660233",
+      "institution_match": {
+        "method": "נקודת העניין בית ספר - אורט אבו תלול ב־GovMap מופיעה בתוך מתאר הגג שנבחר; התאמה לשם וסמל המוסד במאגר החינוך",
+        "status": "שיוך לפי מפת המקור — נדרש אימות שטח",
+        "checked_at": "2026-11-10",
+        "evidence": "energy/roof-ort-match.png",
+        "scope": "גג אחד שנבחר במפה; אין ודאות שהוא כולל את כל מבני המוסד"
+      }
+    },
+    {
+      "education_id": "648287",
+      "name": "גג תיכון אורט ביר הדאג׳",
+      "locality": "ביר הדאג'",
+      "x": 171315,
+      "y": 548087,
+      "roof_area_m2": 1975,
+      "existing_panels_m2": 242,
+      "available_solar_m2": 812,
+      "potential_kw": 116,
+      "annual_generation_kwh": 206596,
+      "solar_hours_kwh_per_kw_year": 1921,
+      "id": "roof-648287-171315-548087",
+      "source_url": "https://www.govmap.gov.il/sites/energy/index.html?map=solar_panels",
+      "source_year": 2025,
+      "retrieved_at": "2026-11-10",
+      "ownership": "לא אומתה",
+      "use_class": "שם השימוש לא נמסר בכרטיס הגג",
+      "location_method": "נקודת בדיקה בתוך הגג במפת המקור; לא מרכז מדוד ולא פוליגון",
+      "municipality_match": "משויך למוסד ברשימת נווה מדבר; גבול וזכויות דורשים אימות",
+      "notes": "ערכי ההספק והייצור נשמרו כפי שדווחו במקור, גם כשמכפלת ההספק בשעות השמש שונה מהייצור המדווח.",
+      "institution_match": {
+        "method": "נקודת עניין מזוהה בשם בית הספר ב־GovMap, ובדיקת מתאר הגג והמתחם בתצלום האוויר; שם וסמל המוסד הוצלבו עם רשימת החינוך.",
+        "status": "שיוך לפי מפת המקור — נדרש אימות שטח",
+        "checked_at": "2026-11-10",
+        "evidence": "energy/roof-bir-ort.png",
+        "scope": "הגג שנבחר במפה בלבד; ייתכנו מבנים או גגות נוספים במוסד שטרם נבדקו"
+      },
+      "source_education_xy": [
+        171357.736,
+        548162.602
+      ],
+      "distance_from_education_point_m": 86.8
+    },
+    {
+      "education_id": "618876",
+      "name": "גג בית הספר אל אמל",
+      "locality": "ביר הדאג'",
+      "x": 172464,
+      "y": 547637,
+      "roof_area_m2": 1364,
+      "existing_panels_m2": 260,
+      "available_solar_m2": 660,
+      "potential_kw": 94,
+      "annual_generation_kwh": 167414,
+      "solar_hours_kwh_per_kw_year": 1815,
+      "id": "roof-618876-172464-547637",
+      "source_url": "https://www.govmap.gov.il/sites/energy/index.html?map=solar_panels",
+      "source_year": 2025,
+      "retrieved_at": "2026-11-10",
+      "ownership": "לא אומתה",
+      "use_class": "שם השימוש לא נמסר בכרטיס הגג",
+      "location_method": "נקודת בדיקה בתוך הגג במפת המקור; לא מרכז מדוד ולא פוליגון",
+      "municipality_match": "משויך למוסד ברשימת נווה מדבר; גבול וזכויות דורשים אימות",
+      "notes": "ערכי ההספק והייצור נשמרו כפי שדווחו במקור, גם כשמכפלת ההספק בשעות השמש שונה מהייצור המדווח.",
+      "institution_match": {
+        "method": "נקודת עניין מזוהה בשם בית הספר ב־GovMap, ובדיקת מתאר הגג והמתחם בתצלום האוויר; שם וסמל המוסד הוצלבו עם רשימת החינוך.",
+        "status": "שיוך לפי מפת המקור — נדרש אימות שטח",
+        "checked_at": "2026-11-10",
+        "evidence": "energy/roof-bir-alamal.png",
+        "scope": "הגג שנבחר במפה בלבד; ייתכנו מבנים או גגות נוספים במוסד שטרם נבדקו"
+      },
+      "source_education_xy": [
+        172492.0,
+        547639.0
+      ],
+      "distance_from_education_point_m": 28.1
+    },
+    {
+      "education_id": "630087",
+      "name": "גג בית הספר ביר עסלוג׳",
+      "locality": "ביר הדאג'",
+      "x": 170673,
+      "y": 548305,
+      "roof_area_m2": 1296,
+      "existing_panels_m2": 2,
+      "available_solar_m2": 804,
+      "potential_kw": 115,
+      "annual_generation_kwh": 204815,
+      "solar_hours_kwh_per_kw_year": 1872,
+      "id": "roof-630087-170673-548305",
+      "source_url": "https://www.govmap.gov.il/sites/energy/index.html?map=solar_panels",
+      "source_year": 2025,
+      "retrieved_at": "2026-11-10",
+      "ownership": "לא אומתה",
+      "use_class": "שם השימוש לא נמסר בכרטיס הגג",
+      "location_method": "נקודת בדיקה בתוך הגג במפת המקור; לא מרכז מדוד ולא פוליגון",
+      "municipality_match": "משויך למוסד ברשימת נווה מדבר; גבול וזכויות דורשים אימות",
+      "notes": "ערכי ההספק והייצור נשמרו כפי שדווחו במקור, גם כשמכפלת ההספק בשעות השמש שונה מהייצור המדווח.",
+      "institution_match": {
+        "method": "נקודת עניין מזוהה בשם בית הספר ב־GovMap, ובדיקת מתאר הגג והמתחם בתצלום האוויר; שם וסמל המוסד הוצלבו עם רשימת החינוך.",
+        "status": "שיוך לפי מפת המקור — נדרש אימות שטח",
+        "checked_at": "2026-11-10",
+        "evidence": "energy/roof-bir-aslug.png",
+        "scope": "הגג שנבחר במפה בלבד; ייתכנו מבנים או גגות נוספים במוסד שטרם נבדקו"
+      },
+      "source_education_xy": [
+        170680.0,
+        548868.0
+      ],
+      "distance_from_education_point_m": 563.0
+    },
+    {
+      "education_id": "648220",
+      "name": "גג מערבי — תיכון אורט אבו קרינאת",
+      "locality": "אבו קרינאת",
+      "x": 196055,
+      "y": 560313,
+      "roof_area_m2": 1051,
+      "existing_panels_m2": 257,
+      "available_solar_m2": 340,
+      "potential_kw": 49,
+      "annual_generation_kwh": 87710,
+      "solar_hours_kwh_per_kw_year": 1856,
+      "id": "roof-648220-196055-560313",
+      "source_url": "https://www.govmap.gov.il/sites/energy/index.html?map=solar_panels",
+      "source_year": 2025,
+      "retrieved_at": "2026-11-10",
+      "ownership": "לא אומתה",
+      "use_class": "שם השימוש לא נמסר בכרטיס הגג",
+      "location_method": "נקודת בדיקה בתוך הגג במפת המקור; לא מרכז מדוד ולא פוליגון",
+      "municipality_match": "משויך למוסד ברשימת נווה מדבר; גבול וזכויות דורשים אימות",
+      "notes": "ערכי ההספק והייצור נשמרו כפי שדווחו במקור, גם כשמכפלת ההספק בשעות השמש שונה מהייצור המדווח.",
+      "institution_match": {
+        "method": "נקודת עניין מזוהה בשם בית הספר ב־GovMap, ובדיקת מתאר הגג והמתחם בתצלום האוויר; שם וסמל המוסד הוצלבו עם רשימת החינוך.",
+        "status": "שיוך לפי מפת המקור — נדרש אימות שטח",
+        "checked_at": "2026-11-10",
+        "evidence": "energy/roof-qrinat-west.png",
+        "scope": "הגג שנבחר במפה בלבד; ייתכנו מבנים או גגות נוספים במוסד שטרם נבדקו"
+      },
+      "source_education_xy": [
+        196055.0,
+        560266.0
+      ],
+      "distance_from_education_point_m": 47.0
+    },
+    {
+      "education_id": "648220",
+      "name": "גג מזרחי — תיכון אורט אבו קרינאת",
+      "locality": "אבו קרינאת",
+      "x": 196096,
+      "y": 560302,
+      "roof_area_m2": 1079,
+      "existing_panels_m2": 241,
+      "available_solar_m2": 448,
+      "potential_kw": 64,
+      "annual_generation_kwh": 114560,
+      "solar_hours_kwh_per_kw_year": 1906,
+      "id": "roof-648220-196096-560302",
+      "source_url": "https://www.govmap.gov.il/sites/energy/index.html?map=solar_panels",
+      "source_year": 2025,
+      "retrieved_at": "2026-11-10",
+      "ownership": "לא אומתה",
+      "use_class": "שם השימוש לא נמסר בכרטיס הגג",
+      "location_method": "נקודת בדיקה בתוך הגג במפת המקור; לא מרכז מדוד ולא פוליגון",
+      "municipality_match": "משויך למוסד ברשימת נווה מדבר; גבול וזכויות דורשים אימות",
+      "notes": "ערכי ההספק והייצור נשמרו כפי שדווחו במקור, גם כשמכפלת ההספק בשעות השמש שונה מהייצור המדווח.",
+      "institution_match": {
+        "method": "נקודת עניין מזוהה בשם בית הספר ב־GovMap, ובדיקת מתאר הגג והמתחם בתצלום האוויר; שם וסמל המוסד הוצלבו עם רשימת החינוך.",
+        "status": "שיוך לפי מפת המקור — נדרש אימות שטח",
+        "checked_at": "2026-11-10",
+        "evidence": "energy/roof-qrinat-east.png",
+        "scope": "הגג שנבחר במפה בלבד; ייתכנו מבנים או גגות נוספים במוסד שטרם נבדקו"
+      },
+      "source_education_xy": [
+        196055.0,
+        560266.0
+      ],
+      "distance_from_education_point_m": 54.6
+    },
+    {
+      "education_id": "648279",
+      "name": "גג בנקודת תיכון אורט אלהואשלה",
+      "locality": "קסר א-סר",
+      "x": 198380,
+      "y": 554338,
+      "roof_area_m2": 637,
+      "existing_panels_m2": 274,
+      "available_solar_m2": 100,
+      "potential_kw": 14,
+      "annual_generation_kwh": 24808,
+      "solar_hours_kwh_per_kw_year": 1846,
+      "id": "roof-648279-198380-554338",
+      "source_url": "https://www.govmap.gov.il/sites/energy/index.html?map=solar_panels",
+      "source_year": 2025,
+      "retrieved_at": "2026-11-10",
+      "ownership": "לא אומתה",
+      "use_class": "שם השימוש לא נמסר בכרטיס הגג",
+      "location_method": "נקודת בדיקה בתוך הגג במפת המקור; לא מרכז מדוד ולא פוליגון",
+      "municipality_match": "משויך למוסד ברשימת נווה מדבר; גבול וזכויות דורשים אימות",
+      "notes": "ערכי ההספק והייצור נשמרו כפי שדווחו במקור, גם כשמכפלת ההספק בשעות השמש שונה מהייצור המדווח.",
+      "institution_match": {
+        "method": "נקודת משרד החינוך הייחודית (198381.389,554338.409) נבדקה במפה ונמצאה בתוך הגג שנבחר, בפער של כ־1.5 מטר; שם בית הספר לא הופיע בכרטיס הגג.",
+        "status": "שיוך לפי מפת המקור — נדרש אימות שטח",
+        "checked_at": "2026-11-10",
+        "evidence": "energy/roof-hawashla-point.png",
+        "scope": "הגג שנבחר במפה בלבד; ייתכנו מבנים או גגות נוספים במוסד שטרם נבדקו"
+      },
+      "source_education_xy": [
+        198381.389,
+        554338.409
+      ],
+      "distance_from_education_point_m": 1.4
+    },
+    {
+      "education_id": "618728",
+      "name": "גג יסודי חדש באלהוואשלה",
+      "locality": "קסר א-סר",
+      "x": 198404,
+      "y": 554431,
+      "roof_area_m2": 1217,
+      "existing_panels_m2": 266,
+      "available_solar_m2": 388,
+      "potential_kw": 55,
+      "annual_generation_kwh": 97460,
+      "solar_hours_kwh_per_kw_year": 1849,
+      "id": "roof-618728-198404-554431",
+      "source_url": "https://www.govmap.gov.il/sites/energy/index.html?map=solar_panels",
+      "source_year": 2025,
+      "retrieved_at": "2026-11-10",
+      "ownership": "לא אומתה",
+      "use_class": "שם השימוש לא נמסר בכרטיס הגג",
+      "location_method": "נקודת בדיקה בתוך הגג במפת המקור; לא מרכז מדוד ולא פוליגון",
+      "municipality_match": "משויך למוסד ברשימת נווה מדבר; גבול וזכויות דורשים אימות",
+      "notes": "ערכי ההספק והייצור נשמרו כפי שדווחו במקור, גם כשמכפלת ההספק בשעות השמש שונה מהייצור המדווח.",
+      "institution_match": {
+        "method": "נקודת משרד החינוך הייחודית (198392.859,554439.007) אותרה בחצר הפנימית של המבנה הטבעתי; נבחר הגג המקיף אותה. שם המוסד לא הופיע בכרטיס הגג.",
+        "status": "שיוך לפי מפת המקור — נדרש אימות שטח",
+        "checked_at": "2026-11-10",
+        "evidence": "energy/roof-hawashla-primary.png",
+        "scope": "הגג שנבחר במפה בלבד; ייתכנו מבנים או גגות נוספים במוסד שטרם נבדקו"
+      },
+      "source_education_xy": [
+        198392.859,
+        554439.007
+      ],
+      "distance_from_education_point_m": 13.7
+    }
+  ],
+  "checks": [
+    {
+      "education_id": "618702",
+      "status": "located_no_energy",
+      "description": "אותרה נקודת עניין בשם בית ספר יסודי - אלעזאזמה א. נבדק הגג במפה; לא התקבל כרטיס אנרגיה בנקודה שנבדקה.",
+      "x": 183005,
+      "y": 563706,
+      "evidence": "energy/roof-no-data-alazazma-a.png",
+      "checked_at": "2026-11-10",
+      "source_url": "https://www.govmap.gov.il/sites/energy/index.html?map=solar_panels"
+    },
+    {
+      "education_id": "618108",
+      "status": "located_no_energy",
+      "description": "אותרה נקודת עניין בשם בית ספר - אל עזאזמה ב. נבדק גג במתחם; לא התקבל כרטיס אנרגיה בנקודה שנבדקה.",
+      "x": 182992,
+      "y": 563643,
+      "evidence": "energy/roof-no-data-alazazma-b.png",
+      "checked_at": "2026-11-10",
+      "source_url": "https://www.govmap.gov.il/sites/energy/index.html?map=solar_panels"
+    },
+    {
+      "education_id": "618819",
+      "status": "name_unresolved",
+      "description": "חיפוש אימאן ביר הדאג החזיר גני ילדים; לא נמצאה התאמה מזוהה לבית הספר. אין לשייך אליו גג לפי הנקודה המשותפת לארבעה מוסדות.",
+      "checked_at": "2026-11-10",
+      "source_url": "https://www.govmap.gov.il/sites/energy/index.html?map=solar_panels"
+    },
+    {
+      "education_id": "618595",
+      "status": "name_unresolved",
+      "description": "חיפוש באר חיל ביר הדאג החזיר מגרשים ללא זיהוי בית הספר; אין שיוך גג מבוסס.",
+      "checked_at": "2026-11-10",
+      "source_url": "https://www.govmap.gov.il/sites/energy/index.html?map=solar_panels"
+    },
+    {
+      "education_id": "618892",
+      "status": "name_unresolved",
+      "description": "חיפוש אלעזאזמה ג החזיר את בית הספר אלעזאזמה א בלבד; לא בוצע שיוך בין השמות השונים.",
+      "checked_at": "2026-11-10",
+      "source_url": "https://www.govmap.gov.il/sites/energy/index.html?map=solar_panels"
+    },
+    {
+      "education_id": "618793",
+      "status": "located_no_energy",
+      "description": "אותר בית ספר יסודי עבדת בעבדה בנגב ונבדק גג במתחם; לא התקבל כרטיס אנרגיה בנקודה שנבדקה.",
+      "x": 176020,
+      "y": 524810,
+      "evidence": "energy/roof-no-data-avdat.png",
+      "checked_at": "2026-11-10",
+      "source_url": "https://www.govmap.gov.il/sites/energy/index.html?map=solar_panels"
+    }
+  ]
+}
