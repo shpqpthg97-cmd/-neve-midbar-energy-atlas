@@ -1,0 +1,62 @@
+[
+  {
+    "url": "https://www.energy.gov/sites/default/files/2023-09/espc-esa-fact-sheet_2023.pdf",
+    "status": "local",
+    "file": "espc-esa-fact-sheet_2023.pdf",
+    "sha256": "ccafe167de6ffc54fa43185d5d8e33123963c06ca32f6d234ccb5e2560b8f7d6"
+  },
+  {
+    "url": "https://www.gov.il/BlobFolder/generalpage/2-improving-existing-city/he/home_main_local-government_municipal-info_city-001.pdf",
+    "status": "local",
+    "file": "home_main_local-government_municipal-info_city-001.pdf",
+    "sha256": "65b99911aa4753c6302fd6bcbe10640bd92a17580b7ce0d6182b4987b26cf6a8"
+  },
+  {
+    "url": "https://www.gov.il/BlobFolder/generalpage/cenes_rashoyot_05_2023/he/Files_6_Alla_F.pdf",
+    "status": "local",
+    "file": "Files_6_Alla_F.pdf",
+    "sha256": "efa1a2b7700b2b2dc2cf0c0b1933d1e6bc58a05c0cb0cf035daba5f5fd6f9d07"
+  },
+  {
+    "url": "https://www.gov.il/BlobFolder/generalpage/tarriffbook/he/Files_netunei_hasmal_sefer_tariff_01_2026.pdf",
+    "status": "local",
+    "file": "Files_netunei_hasmal_sefer_tariff_01_2026.pdf",
+    "sha256": "3d23e1ecd46866d0788b5a6381515fbec31210713eb6ee40f7e48b9559e6c78e"
+  },
+  {
+    "url": "https://www.gov.il/BlobFolder/news/news-250225-2/he/resilience-centers.pdf",
+    "status": "local",
+    "file": "resilience-centers.pdf",
+    "sha256": "bc63eded0d771b0aa9972242cd7ebff12ab1450202a0f96712960f45a728e369"
+  },
+  {
+    "url": "https://www.gov.il/BlobFolder/policy/63704/he/Files_Hachlatot_63704.pdf",
+    "status": "local",
+    "file": "Files_Hachlatot_63704.pdf",
+    "sha256": "c47fe39182c158682b0dd49460774d04905fe1acd97be1efe3a9bd430e416de4"
+  },
+  {
+    "url": "https://www.gov.il/BlobFolder/policy/63704/he/question.pdf",
+    "status": "local",
+    "file": "question.pdf",
+    "sha256": "81535ed68deea859587219f4d0c4fdc5f61e92626f6c421f1a76c98635c9db2f"
+  },
+  {
+    "url": "https://www.gov.il/BlobFolder/policy/70103/he/Files_Hachlatot_70103.pdf",
+    "status": "local",
+    "file": "Files_Hachlatot_70103.pdf",
+    "sha256": "292081c6b9e468b68be434668c86aac7fb08062b325d6d83d341f6c2048dd074"
+  },
+  {
+    "url": "https://www.gov.il/BlobFolder/policy/70104/he/Files_Hachlatot_70104.pdf",
+    "status": "local",
+    "file": "Files_Hachlatot_70104.pdf",
+    "sha256": "83ae08bd122a9a839bef378ea093110b25f347a37a22ef6641710eed6b00cf7d"
+  },
+  {
+    "url": "https://www.gov.il/BlobFolder/policy/78206/he/Files_Hachlatot_72608_reshumot.pdf",
+    "status": "local",
+    "file": "Files_Hachlatot_72608_reshumot.pdf",
+    "sha256": "6bf1fc45233523b34acb6d6d2269dc41770936a88147638daf8fa6cad479e63e"
+  }
+]

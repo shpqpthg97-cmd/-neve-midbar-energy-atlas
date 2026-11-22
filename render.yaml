@@ -1,0 +1,28 @@
+# Render Blueprint: the atlas Worker served by Node, with PostgreSQL on Supabase.
+services:
+  - type: web
+    name: neve-midbar-energy-atlas
+    runtime: node
+    plan: free
+    region: frankfurt
+    buildCommand: npm ci && npm run build
+    startCommand: node hosting/server.mjs
+    healthCheckPath: /health/ready
+    autoDeploy: true
+    envVars:
+      - key: NODE_VERSION
+        value: "24"
+      - key: ATLAS_ORIGIN
+        sync: false
+      - key: DATABASE_URL
+        sync: false
+      - key: ATLAS_SESSION_KEY
+        sync: false
+      - key: ATLAS_ACCESS_HASH
+        sync: false
+      - key: ATLAS_INITIAL_GUEST_CODE
+        sync: false
+      - key: ATLAS_MCP_GATEWAY_KEY
+        sync: false
+      - key: ATLAS_SYNC_KEY
+        sync: false
