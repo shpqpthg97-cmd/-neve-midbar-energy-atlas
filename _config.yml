@@ -1,0 +1,7 @@
+# GitHub Pages serves only the public entry page. The Worker serves the application.
+include:
+  - index.html
+exclude:
+  - "*"
+readme_index:
+  enabled: false
